@@ -33,12 +33,14 @@ class ClimbProView extends WatchUi.DataField {
     hidden var timer=0;
     hidden var climbTime=0;
     hidden var dist=0;
+    hidden var resStart;
+    hidden var resFinish;
 
         // Set the target GPS coordinates (latitude and longitude)
     const targetLat = -43.563172579; // Replace with target latitude
     const targetLon = 172.598233192; // Replace with target longitude
     const length = 800;
-    const name = "Worsley Rd";
+    const name = "Worsleys";
 
     const proximityThreshold = 25; // Proximity threshold in meters
 
@@ -46,6 +48,10 @@ class ClimbProView extends WatchUi.DataField {
 
     function initialize() {
         DataField.initialize();
+
+        resStart = WatchUi.loadResource(Rez.Drawables.Start);
+        resFinish = WatchUi.loadResource(Rez.Drawables.Finish);
+
         mValue = 0.0f;
         var climbpoints = data.size();
 
@@ -158,25 +164,39 @@ class ClimbProView extends WatchUi.DataField {
             var pts = [[x1,h1], [x1,y], [x2,y], [x2,h2]];
            // var pts = [[20,10], [10,100], [100,100], [100,10]];
             dc.fillPolygon(pts);
-            if (timer !=0) {
-                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-                var progress = 180* ((length-climbToGo) / length); 
-                 dc.fillRectangle(0,182, progress, 2);
-
-                    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-                    dc.drawText(5, 5, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
-                    dc.drawText(5, 25, Graphics.FONT_SMALL, climbToGo.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
-                    var dispTime = secondsToTimeString(climbTime);
-                    dc.drawText(5, 45, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
-            }
-            else
-            {
-                    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-                    dc.drawText(5, 25, Graphics.FONT_SMALL, distToClimb.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
-
-            }
-
         }
+
+        var lenName = dc.getTextWidthInPixels(name, Graphics.FONT_SMALL);
+        if (lenName > 60) 
+        {
+            lenName = 60;
+            name = name.substring(0, 10);
+        }
+
+        if (timer !=0) {
+            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            var progress = 180* ((length-climbToGo) / length); 
+            dc.fillRectangle(0,182, progress, 2);
+
+            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(5, 5, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
+            var lenNme = dc.getTextWidthInPixels(name, Graphics.FONT_SMALL);
+            dc.drawBitmap(lenName+8, 10, resFinish);
+            dc.drawText(lenName+20, 5, Graphics.FONT_SMALL, climbToGo.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
+
+            var dispTime = secondsToTimeString(climbTime);
+            dc.drawText(5, 25, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
+        }
+        else
+        {
+            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(5, 5, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
+            var lenNme = dc.getTextWidthInPixels(name, Graphics.FONT_SMALL);
+            dc.drawBitmap(lenName+8, 10, resStart);
+            dc.drawText(lenName+20, 5, Graphics.FONT_SMALL, distToClimb.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
+        }
+
+
     }
 
     function secondsToTimeString(totalSeconds) {

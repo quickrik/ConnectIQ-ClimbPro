@@ -1,0 +1,6 @@
+<resources>
+
+    <bitmap id="Start" filename="drawables/Start.bmp" />
+    <bitmap id="Finish" filename="drawables/Finish.bmp" />
+    
+</resources>
