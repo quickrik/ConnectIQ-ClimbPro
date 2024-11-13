@@ -20,7 +20,8 @@ class ClimbProView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
     hidden var climbgrad = new Array<Number>[100];
-    hidden var data = [0, 40, 50, 110, 120,130,140,170,180];
+    hidden var data = [0, 40, 50, 110, 120,130,140,170,186];
+    hidden var maxBarHeight =0;
     hidden var currentLoc;
     hidden var inClimb = 0;
     hidden var distToClimb = 100000;
@@ -32,15 +33,24 @@ class ClimbProView extends WatchUi.DataField {
     hidden var lastLon;
     hidden var timer=0;
     hidden var climbTime=0;
+    hidden var lastTime=0;
     hidden var dist=0;
     hidden var resStart;
     hidden var resFinish;
+    hidden var height;
+    hidden var width;
+    hidden var targetLon;
+    hidden var targetLat;
+    hidden var length;
+    hidden var climbCode = "-43.56317257,172.598233192, 800,Worsleys, 0, 40, 50, 110, 120, 130, 140, 170, 180";
+    hidden var climbCode2 = "-43.56724,172.59921,550,Sparks,0,30,60,90,150,180,200";
+    hidden var allClimbs = new [10];
+    hidden var closestClimb= 0;
+    hidden var lowDistToClimb= 999999;
 
         // Set the target GPS coordinates (latitude and longitude)
-    const targetLat = -43.563172579; // Replace with target latitude
-    const targetLon = 172.598233192; // Replace with target longitude
-    const length = 800;
-    const name = "Worsleys";
+
+    hidden var name = "Worsleys";
 
     const proximityThreshold = 25; // Proximity threshold in meters
 
@@ -53,13 +63,27 @@ class ClimbProView extends WatchUi.DataField {
         resFinish = WatchUi.loadResource(Rez.Drawables.Finish);
 
         mValue = 0.0f;
-        var climbpoints = data.size();
+        maxBarHeight = maxAlt(data);
 
-        for (var i=0; i < data.size()-1; i++)
-        {
-            climbgrad[i] = ((data[i+1] -data[i]) / 1000f ) * 100f;
-             //System.println(climbgrad[i]);
-        }
+        // for(var i=0; i <2;i++) {
+        //     allclimbs[i] = blah;
+        // }
+        allClimbs[0] = toArray(climbCode, ",");
+        allClimbs[1] = toArray(climbCode2, ",");
+
+        var bobo = allClimbs[0];
+        var boba = allClimbs[1];
+
+        data = toArray(climbCode, ",");
+        targetLat = data[1].toFloat();
+        targetLon = data[2].toFloat();
+        length = data[3].toFloat();
+        name = data[4];
+        // for (var i=5; i < data[0]; i++)
+        // {
+        //     climbgrad[i] = ((data[i+1].toFloat() -data[i].toFloat()) / 1000f ) * 100f;
+        //      //System.println(climbgrad[i]);
+        // }
 
        // die;
     }
@@ -67,7 +91,8 @@ class ClimbProView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-
+        height = dc.getHeight();
+        width = dc.getWidth();
     }
 
     // The given info object contains all the current workout information.
@@ -79,8 +104,20 @@ class ClimbProView extends WatchUi.DataField {
         if (info.currentLocation != null) {
             Lat = info.currentLocation.toDegrees()[0];
             Lon = info.currentLocation.toDegrees()[1];
-            System.println("Location: " + Lat +", " + Lon);
-            distToClimb = calculateDistance(Lat, Lon, targetLat, targetLon);
+            
+            lowDistToClimb = 99999;
+            for(var i=0; i <2;i++) {
+                var tempDistToClimb = calculateDistance(Lat, Lon, allClimbs[i][1].toFloat(), allClimbs[i][2].toFloat());
+                if (tempDistToClimb < lowDistToClimb) {
+                    lowDistToClimb = tempDistToClimb;
+                    distToClimb = tempDistToClimb;
+                    length = allClimbs[i][3];
+                    name = allClimbs[i][4];
+                    closestClimb = i;
+                }
+            }
+            System.println(closestClimb);
+            
             if ((distToClimb <=proximityThreshold ) && (inClimb==0)) {
                 inClimb=1;
                 covered = 0;
@@ -95,16 +132,17 @@ class ClimbProView extends WatchUi.DataField {
                 if ((covered  >= proximityThreshold) && (timer==0)) {timer = Time.now().value();}
 
                 if (timer !=0) {
-                    climbToGo = length - (covered - proximityThreshold);
+                    climbToGo = length.toFloat() - (covered - proximityThreshold);
                     climbTime =Time.now().value()-timer;
                     if (climbToGo <= 0) {
                         inClimb = 0;
+                        lastTime = climbTime;
                         timer=0;
                     }
 
                 }
             }
-            System.println(dist+", "+inClimb+", "+covered+", "+climbToGo+", "+climbTime);
+            System.println(distToClimb+", "+inClimb+", "+covered+", "+climbToGo+", "+climbTime);
         }
 
     }
@@ -134,27 +172,29 @@ class ClimbProView extends WatchUi.DataField {
         
         // Graph parameters
         var bob = length;
-        var barWidth = 180 /((length-1)/100);
+        var barWidth = width.toFloat() /((length.toFloat())/100f);
         var startX = 20;
-        var maxBarHeight = 120.0f;
+
         
         // Colors for each bar
         var colours = [Graphics.COLOR_RED, Graphics.COLOR_GREEN, Graphics.COLOR_BLUE, Graphics.COLOR_ORANGE];
 
         // Background colour
-        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_WHITE);
+        dc.clear();
         
         // Draw each bar
-        for (var i = 0; i < data.size()-1; i++) {
-            var h1 = 180-((data[i] / maxBarHeight) * maxBarHeight);
-            var h2 = 180-((data[i+1] / maxBarHeight) * maxBarHeight);
-            var x1 = (i * (barWidth));
-            var x2 = ((i+1) * (barWidth));
-            var y = 180; // Adjust to place bars within the data field
+        for (var i = 5; i < data[0]; i++) {
+            var h1 = (height-5)-((data[i].toFloat() / maxBarHeight) * (height-5));
+            var h2 = (height-5)-((data[i+1].toFloat() / maxBarHeight) * (height-5));
+  
+            var x1 = ((i-5) * (barWidth));
+            var x2 = ((i-4) * (barWidth));
+            var y = height-5; // Adjust to place bars within the data field
             
             // Set the colour for each bar
-            var grad = ((data[i+1] -data[i]) / 1000f ) * 100f;
-            
+            var grad = ((data[i+1].toFloat() - data[i].toFloat()) / 1000f ) * 100f;
+ 
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
             if ((grad >=3) && (grad <6)) {dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);}
             if ((grad >=6) && (grad <9)) {dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);}
@@ -162,7 +202,6 @@ class ClimbProView extends WatchUi.DataField {
             if (grad >=12) {dc.setColor(Graphics.COLOR_DK_RED, Graphics.COLOR_TRANSPARENT);}
 
             var pts = [[x1,h1], [x1,y], [x2,y], [x2,h2]];
-           // var pts = [[20,10], [10,100], [100,100], [100,10]];
             dc.fillPolygon(pts);
         }
 
@@ -174,26 +213,35 @@ class ClimbProView extends WatchUi.DataField {
         }
 
         if (timer !=0) {
+            // Progress bar
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-            var progress = 180* ((length-climbToGo) / length); 
-            dc.fillRectangle(0,182, progress, 2);
+            var progress = width * ((length.toFloat()-climbToGo) / length.toFloat()); 
+            dc.fillRectangle(0,height-3, progress, 2);
 
+            // Name - Dist.
             dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(5, 5, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(2, 2, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
             var lenNme = dc.getTextWidthInPixels(name, Graphics.FONT_SMALL);
-            dc.drawBitmap(lenName+8, 10, resFinish);
-            dc.drawText(lenName+20, 5, Graphics.FONT_SMALL, climbToGo.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawBitmap(lenName+5, 7, resFinish);
+            dc.drawText(lenName+17, 2, Graphics.FONT_SMALL, climbToGo.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
 
+            // Time
             var dispTime = secondsToTimeString(climbTime);
-            dc.drawText(5, 25, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(2, 22, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
         }
         else
         {
             dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(5, 5, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(2, 2, Graphics.FONT_SMALL, name, Graphics.TEXT_JUSTIFY_LEFT);
             var lenNme = dc.getTextWidthInPixels(name, Graphics.FONT_SMALL);
-            dc.drawBitmap(lenName+8, 10, resStart);
-            dc.drawText(lenName+20, 5, Graphics.FONT_SMALL, distToClimb.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawBitmap(lenName+5, 7, resStart);
+            dc.drawText(lenName+17, 2, Graphics.FONT_SMALL, distToClimb.toNumber()+"m", Graphics.TEXT_JUSTIFY_LEFT);
+
+            // Time
+            if (lastTime !=0) {
+                var dispTime = secondsToTimeString(lastTime);
+                dc.drawText(2, 22, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
+            }
         }
 
 
@@ -206,4 +254,41 @@ class ClimbProView extends WatchUi.DataField {
         var timeString = format("$1$:$2$:$3$", [hours.format("%01d"), minutes.format("%02d"), seconds.format("%02d")]);
         return timeString;
     }
+
+    function maxAlt(alts) {
+        var counter=0;
+        var biggest=0;
+        do {
+        if(alts[counter]>biggest){
+            biggest=alts[counter];
+        }
+        counter++;
+        }
+        while (counter < alts.size());
+        return biggest;
+    }
+
+function toArray(string, splitter) {
+var array = new [50]; //Use maximum expected length
+var index = 1;
+var location;
+do
+{
+location = string.find(splitter);
+if (location != null) {
+array[index] = string.substring(0, location);
+string = string.substring(location + 1, string.length());
+index++;
+}
+}
+while (location != null);
+array[index] = string;
+array[0] = index;
+
+var result = new [index];
+for (var i = 0; i < index; i++) {
+result= array;
+}
+return result;
+}
 }
