@@ -2,5 +2,24 @@
 
     <bitmap id="Start" filename="drawables/Start.bmp" />
     <bitmap id="Finish" filename="drawables/Finish.bmp" />
-    
+        
+    <properties>
+        <property id="climbstring" type="string">-43.56317257,172.598233192,800,Worsleys,0,40,50,110,120,130,140,170,180;-43.56724,172.59921,550,Sparks,0,30,60,90,150,180,200</property>
+        <property id="climbtimes" type="string"></property>
+    </properties>
+
+    <strings>
+       <string id="code_title">Climbs Code</string>
+       <string id="times_title">Climb Times</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.climbstring" title="@Strings.code_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.climbtimes" title="@Strings.times_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </settings>
+
 </resources>

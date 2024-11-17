@@ -1,3 +1,5 @@
+import Toybox.Application;
+import Toybox.Application.Properties;
 import Toybox.Activity;
 import Toybox.Graphics;
 import Toybox.Lang;
@@ -20,7 +22,7 @@ class ClimbProView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
     hidden var climbgrad = new Array<Number>[100];
-    hidden var data = [0, 40, 50, 110, 120,130,140,170,186];
+    hidden var data;
     hidden var maxBarHeight =0;
     hidden var currentLoc;
     hidden var inClimb = 0;
@@ -41,13 +43,17 @@ class ClimbProView extends WatchUi.DataField {
     hidden var width;
     hidden var targetLon;
     hidden var targetLat;
-    hidden var length;
+    hidden var length=20;
     hidden var climbCode = "-43.56317257,172.598233192, 800,Worsleys, 0, 40, 50, 110, 120, 130, 140, 170, 180";
     hidden var climbCode2 = "-43.56724,172.59921,550,Sparks,0,30,60,90,150,180,200";
-    hidden var allClimbs = new [10];
+    hidden var allClimbs = new [20];
     hidden var closestClimb= 0;
     hidden var lowDistToClimb= 999999;
+    hidden var climbTimes = "";
+    hidden var noClimbs = 0;
 
+    // Climbcode
+    // -43.56317257,172.598233192,800,Worsleys,0,40,50,110,120,130,140,170,180;-43.56724,172.59921,550,Sparks,0,30,60,90,150,180,200
         // Set the target GPS coordinates (latitude and longitude)
 
     hidden var name = "Worsleys";
@@ -59,32 +65,47 @@ class ClimbProView extends WatchUi.DataField {
     function initialize() {
         DataField.initialize();
 
+        var mySetting = Properties.getValue("climbstring");
+        Properties.setValue("climbtimes", "");
+
+        var climbCodes = toArray(mySetting, ";");
+        noClimbs = climbCodes[0].toNumber();
+
+        for (var i=1; i <= noClimbs; i++) {
+            climbCode = climbCodes[i];
+            allClimbs[i-1] = toArray(climbCode, ",");
+            var maxheight = maxAlt(allClimbs[i-1]);
+            if (maxheight > maxBarHeight) {maxBarHeight = maxheight;}
+
+        }
+
         resStart = WatchUi.loadResource(Rez.Drawables.Start);
         resFinish = WatchUi.loadResource(Rez.Drawables.Finish);
 
         mValue = 0.0f;
-        maxBarHeight = maxAlt(data);
+        
+        //maxBarHeight = maxAlt(data);
 
         // for(var i=0; i <2;i++) {
         //     allclimbs[i] = blah;
         // }
-        allClimbs[0] = toArray(climbCode, ",");
-        allClimbs[1] = toArray(climbCode2, ",");
+        // allClimbs[0] = toArray(climbCode, ",");
+        // allClimbs[1] = toArray(climbCode2, ",");
 
-        var bobo = allClimbs[0];
-        var boba = allClimbs[1];
+        // var bobo = allClimbs[0];
+        // var boba = allClimbs[1];
 
-        data = toArray(climbCode, ",");
-        targetLat = data[1].toFloat();
-        targetLon = data[2].toFloat();
-        length = data[3].toFloat();
-        name = data[4];
-        // for (var i=5; i < data[0]; i++)
-        // {
-        //     climbgrad[i] = ((data[i+1].toFloat() -data[i].toFloat()) / 1000f ) * 100f;
-        //      //System.println(climbgrad[i]);
-        // }
-
+        // data = toArray(climbCode, ",");
+        // targetLat = data[1].toFloat();
+        // targetLon = data[2].toFloat();
+        // length = data[3].toFloat();
+        // name = data[4];
+        for (var i=5; i < allClimbs[0][0]; i++)
+        {
+            climbgrad[i] = ((allClimbs[0][i+1].toFloat() -allClimbs[0][i].toFloat()) / 100f ) * 100f;
+             //System.println(climbgrad[i]);
+        }
+        var bob=1;
        // die;
     }
 
@@ -106,17 +127,20 @@ class ClimbProView extends WatchUi.DataField {
             Lon = info.currentLocation.toDegrees()[1];
             
             lowDistToClimb = 99999;
-            for(var i=0; i <2;i++) {
+            for(var i=0; i < noClimbs; i++) {
                 var tempDistToClimb = calculateDistance(Lat, Lon, allClimbs[i][1].toFloat(), allClimbs[i][2].toFloat());
-                if (tempDistToClimb < lowDistToClimb) {
+                if ((tempDistToClimb < lowDistToClimb) && (inClimb != 1)) {
                     lowDistToClimb = tempDistToClimb;
                     distToClimb = tempDistToClimb;
                     length = allClimbs[i][3];
                     name = allClimbs[i][4];
-                    closestClimb = i;
+                    data = allClimbs[i];
+
                 }
+                
+            //System.println(i + " "+tempDistToClimb);
             }
-            System.println(closestClimb);
+           // System.println(tempDistToClimb);
             
             if ((distToClimb <=proximityThreshold ) && (inClimb==0)) {
                 inClimb=1;
@@ -138,11 +162,15 @@ class ClimbProView extends WatchUi.DataField {
                         inClimb = 0;
                         lastTime = climbTime;
                         timer=0;
+                        var dispTime = secondsToTimeString(lastTime);
+                        climbTimes = climbTimes+name+":"+dispTime+" ";
+                        Properties.setValue("climbtimes", climbTimes);
+                        System.println(climbTimes);
                     }
 
                 }
             }
-            System.println(distToClimb+", "+inClimb+", "+covered+", "+climbToGo+", "+climbTime);
+            //System.println(distToClimb+", "+inClimb+", "+covered+", "+climbToGo+", "+climbTime);
         }
 
     }
@@ -183,6 +211,7 @@ class ClimbProView extends WatchUi.DataField {
         dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_WHITE);
         dc.clear();
         
+        if (data != null) {
         // Draw each bar
         for (var i = 5; i < data[0]; i++) {
             var h1 = (height-5)-((data[i].toFloat() / maxBarHeight) * (height-5));
@@ -193,7 +222,7 @@ class ClimbProView extends WatchUi.DataField {
             var y = height-5; // Adjust to place bars within the data field
             
             // Set the colour for each bar
-            var grad = ((data[i+1].toFloat() - data[i].toFloat()) / 1000f ) * 100f;
+            var grad = ((data[i+1].toFloat() - data[i].toFloat()) / 100f ) * 100f;
  
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
             if ((grad >=3) && (grad <6)) {dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);}
@@ -243,7 +272,7 @@ class ClimbProView extends WatchUi.DataField {
                 dc.drawText(2, 22, Graphics.FONT_SMALL, dispTime, Graphics.TEXT_JUSTIFY_LEFT);
             }
         }
-
+        }
 
     }
 
@@ -256,11 +285,13 @@ class ClimbProView extends WatchUi.DataField {
     }
 
     function maxAlt(alts) {
-        var counter=0;
+        var counter=5;
         var biggest=0;
         do {
-        if(alts[counter]>biggest){
-            biggest=alts[counter];
+            if(alts[counter] != null) {
+                if(alts[counter].toNumber()>biggest){
+                    biggest=alts[counter].toNumber();
+                }
         }
         counter++;
         }
