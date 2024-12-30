@@ -8,8 +8,8 @@
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="3" lineNum="16" parent="globals/ClimbProApp" pc="268435484" symbol="onStop"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="4" lineNum="20" parent="globals/ClimbProApp" pc="268435489" symbol="getInitialView"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="4" lineNum="21" parent="globals/ClimbProApp" pc="268435493" symbol="getInitialView"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="5" lineNum="5" parent="globals/ClimbProApp" pc="268440142" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="5" lineNum="5" parent="globals/ClimbProApp" pc="268440142" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="5" lineNum="5" parent="globals/ClimbProApp" pc="268440194" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="5" lineNum="5" parent="globals/ClimbProApp" pc="268440194" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="6" lineNum="26" parent="globals" pc="268435531" symbol="getApp"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProApp.mc" id="6" lineNum="27" parent="globals" pc="268435543" symbol="getApp"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="8" lineNum="9" parent="globals/Background" pc="268435560" symbol="initialize"/>
@@ -21,180 +21,182 @@
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="10" lineNum="23" parent="globals/Background" pc="268435641" symbol="draw"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="10" lineNum="24" parent="globals/Background" pc="268435645" symbol="draw"/>
 <entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="10" lineNum="25" parent="globals/Background" pc="268435677" symbol="draw"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268440046" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268440046" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="65" parent="globals/ClimbProView" pc="268435690" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="66" parent="globals/ClimbProView" pc="268435694" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="68" parent="globals/ClimbProView" pc="268435712" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="69" parent="globals/ClimbProView" pc="268435734" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="71" parent="globals/ClimbProView" pc="268435760" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="72" parent="globals/ClimbProView" pc="268435780" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="74" parent="globals/ClimbProView" pc="268435805" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="75" parent="globals/ClimbProView" pc="268435826" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="76" parent="globals/ClimbProView" pc="268435839" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="77" parent="globals/ClimbProView" pc="268435880" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="78" parent="globals/ClimbProView" pc="268435910" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="78" parent="globals/ClimbProView" pc="268435924" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="82" parent="globals/ClimbProView" pc="268435950" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="83" parent="globals/ClimbProView" pc="268435993" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="85" parent="globals/ClimbProView" pc="268436036" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="103" parent="globals/ClimbProView" pc="268436049" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="105" parent="globals/ClimbProView" pc="268436082" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="108" parent="globals/ClimbProView" pc="268436177" symbol="initialize"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="114" parent="globals/ClimbProView" pc="268436185" symbol="onLayout"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="115" parent="globals/ClimbProView" pc="268436189" symbol="onLayout"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="116" parent="globals/ClimbProView" pc="268436208" symbol="onLayout"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="123" parent="globals/ClimbProView" pc="268436228" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="125" parent="globals/ClimbProView" pc="268436232" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="126" parent="globals/ClimbProView" pc="268436245" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="127" parent="globals/ClimbProView" pc="268436276" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="129" parent="globals/ClimbProView" pc="268436307" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="130" parent="globals/ClimbProView" pc="268436320" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="131" parent="globals/ClimbProView" pc="268436341" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="132" parent="globals/ClimbProView" pc="268436422" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="133" parent="globals/ClimbProView" pc="268436456" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="134" parent="globals/ClimbProView" pc="268436466" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="135" parent="globals/ClimbProView" pc="268436476" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="136" parent="globals/ClimbProView" pc="268436501" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="137" parent="globals/ClimbProView" pc="268436526" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="145" parent="globals/ClimbProView" pc="268436561" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="146" parent="globals/ClimbProView" pc="268436601" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="147" parent="globals/ClimbProView" pc="268436614" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="148" parent="globals/ClimbProView" pc="268436627" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="149" parent="globals/ClimbProView" pc="268436643" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="152" parent="globals/ClimbProView" pc="268436662" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="153" parent="globals/ClimbProView" pc="268436679" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="154" parent="globals/ClimbProView" pc="268436736" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="155" parent="globals/ClimbProView" pc="268436752" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="156" parent="globals/ClimbProView" pc="268436768" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="156" parent="globals/ClimbProView" pc="268436808" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="158" parent="globals/ClimbProView" pc="268436843" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="159" parent="globals/ClimbProView" pc="268436860" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="160" parent="globals/ClimbProView" pc="268436903" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="161" parent="globals/ClimbProView" pc="268436944" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="162" parent="globals/ClimbProView" pc="268436961" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="163" parent="globals/ClimbProView" pc="268436974" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="164" parent="globals/ClimbProView" pc="268436990" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="165" parent="globals/ClimbProView" pc="268437003" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="166" parent="globals/ClimbProView" pc="268437024" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="167" parent="globals/ClimbProView" pc="268437064" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="168" parent="globals/ClimbProView" pc="268437093" symbol="compute"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="177" parent="globals/ClimbProView" pc="268437132" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="178" parent="globals/ClimbProView" pc="268437136" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="181" parent="globals/ClimbProView" pc="268437143" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="182" parent="globals/ClimbProView" pc="268437165" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="183" parent="globals/ClimbProView" pc="268437187" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="184" parent="globals/ClimbProView" pc="268437206" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="187" parent="globals/ClimbProView" pc="268437225" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="190" parent="globals/ClimbProView" pc="268437358" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="192" parent="globals/ClimbProView" pc="268437421" symbol="calculateDistance"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="198" parent="globals/ClimbProView" pc="268437428" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="202" parent="globals/ClimbProView" pc="268437432" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="203" parent="globals/ClimbProView" pc="268437442" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="204" parent="globals/ClimbProView" pc="268437485" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="208" parent="globals/ClimbProView" pc="268437492" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="211" parent="globals/ClimbProView" pc="268437580" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="212" parent="globals/ClimbProView" pc="268437616" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="214" parent="globals/ClimbProView" pc="268437628" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="216" parent="globals/ClimbProView" pc="268437641" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="217" parent="globals/ClimbProView" pc="268437668" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="218" parent="globals/ClimbProView" pc="268437729" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="220" parent="globals/ClimbProView" pc="268437796" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="221" parent="globals/ClimbProView" pc="268437809" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="222" parent="globals/ClimbProView" pc="268437822" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="225" parent="globals/ClimbProView" pc="268437838" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="227" parent="globals/ClimbProView" pc="268437899" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="228" parent="globals/ClimbProView" pc="268437935" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="228" parent="globals/ClimbProView" pc="268437960" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="229" parent="globals/ClimbProView" pc="268437999" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="229" parent="globals/ClimbProView" pc="268438024" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="230" parent="globals/ClimbProView" pc="268438063" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="230" parent="globals/ClimbProView" pc="268438088" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="231" parent="globals/ClimbProView" pc="268438127" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="231" parent="globals/ClimbProView" pc="268438138" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="233" parent="globals/ClimbProView" pc="268438177" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="234" parent="globals/ClimbProView" pc="268438321" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="237" parent="globals/ClimbProView" pc="268438348" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="238" parent="globals/ClimbProView" pc="268438381" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="240" parent="globals/ClimbProView" pc="268438392" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="241" parent="globals/ClimbProView" pc="268438399" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="244" parent="globals/ClimbProView" pc="268438437" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="246" parent="globals/ClimbProView" pc="268438454" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="247" parent="globals/ClimbProView" pc="268438490" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="248" parent="globals/ClimbProView" pc="268438545" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="251" parent="globals/ClimbProView" pc="268438583" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="252" parent="globals/ClimbProView" pc="268438619" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="253" parent="globals/ClimbProView" pc="268438673" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="254" parent="globals/ClimbProView" pc="268438706" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="255" parent="globals/ClimbProView" pc="268438739" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="258" parent="globals/ClimbProView" pc="268438811" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="259" parent="globals/ClimbProView" pc="268438832" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="263" parent="globals/ClimbProView" pc="268438883" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="264" parent="globals/ClimbProView" pc="268438919" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="265" parent="globals/ClimbProView" pc="268438973" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="266" parent="globals/ClimbProView" pc="268439006" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="267" parent="globals/ClimbProView" pc="268439039" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="270" parent="globals/ClimbProView" pc="268439111" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="271" parent="globals/ClimbProView" pc="268439128" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="272" parent="globals/ClimbProView" pc="268439149" symbol="onUpdate"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="279" parent="globals/ClimbProView" pc="268439204" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="280" parent="globals/ClimbProView" pc="268439208" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="281" parent="globals/ClimbProView" pc="268439218" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="282" parent="globals/ClimbProView" pc="268439234" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="283" parent="globals/ClimbProView" pc="268439244" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="284" parent="globals/ClimbProView" pc="268439340" symbol="secondsToTimeString"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="287" parent="globals/ClimbProView" pc="268439344" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="288" parent="globals/ClimbProView" pc="268439348" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="289" parent="globals/ClimbProView" pc="268439355" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="290" parent="globals/ClimbProView" pc="268439362" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="291" parent="globals/ClimbProView" pc="268439362" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="292" parent="globals/ClimbProView" pc="268439372" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="293" parent="globals/ClimbProView" pc="268439392" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="296" parent="globals/ClimbProView" pc="268439414" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="299" parent="globals/ClimbProView" pc="268439441" symbol="maxAlt"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="302" parent="globals/ClimbProView" pc="268439445" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="303" parent="globals/ClimbProView" pc="268439449" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="304" parent="globals/ClimbProView" pc="268439457" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="305" parent="globals/ClimbProView" pc="268439464" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="306" parent="globals/ClimbProView" pc="268439464" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="308" parent="globals/ClimbProView" pc="268439464" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="309" parent="globals/ClimbProView" pc="268439479" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="310" parent="globals/ClimbProView" pc="268439486" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="311" parent="globals/ClimbProView" pc="268439509" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="312" parent="globals/ClimbProView" pc="268439541" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="316" parent="globals/ClimbProView" pc="268439561" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="317" parent="globals/ClimbProView" pc="268439568" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="319" parent="globals/ClimbProView" pc="268439578" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="320" parent="globals/ClimbProView" pc="268439583" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="321" parent="globals/ClimbProView" pc="268439598" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="323" parent="globals/ClimbProView" pc="268439615" symbol="toArray"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="21" parent="globals/ClimbProView" pc="268440065" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="24" parent="globals/ClimbProView" pc="268440083" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="49" parent="globals/ClimbProView" pc="268440097" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="21" parent="globals/ClimbProView" pc="268440065" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268440136" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="24" lineNum="8" parent="globals/Rez/Fonts" pc="268440138" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="25" lineNum="10" parent="globals/Rez/JsonData" pc="268440140" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268439619" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268439631" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268439644" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268439657" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268439681" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268439844" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268440007" symbol="MainLayout"/>
-<entry filename="Rez" id="27" lineNum="12" parent="globals/Rez/Layouts" pc="268440139" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="28" lineNum="33" parent="globals/Rez/Menus" pc="268440137" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="29" lineNum="35" parent="globals/Rez/Strings" pc="268440141" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440112" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440112" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268440098" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268440098" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="67" parent="globals/ClimbProView" pc="268435690" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="68" parent="globals/ClimbProView" pc="268435694" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="70" parent="globals/ClimbProView" pc="268435712" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="71" parent="globals/ClimbProView" pc="268435734" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="73" parent="globals/ClimbProView" pc="268435760" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="74" parent="globals/ClimbProView" pc="268435780" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="76" parent="globals/ClimbProView" pc="268435805" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="77" parent="globals/ClimbProView" pc="268435826" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="78" parent="globals/ClimbProView" pc="268435839" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="79" parent="globals/ClimbProView" pc="268435880" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="80" parent="globals/ClimbProView" pc="268435910" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="80" parent="globals/ClimbProView" pc="268435924" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="84" parent="globals/ClimbProView" pc="268435950" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="85" parent="globals/ClimbProView" pc="268435993" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="13" lineNum="87" parent="globals/ClimbProView" pc="268436036" symbol="initialize"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="116" parent="globals/ClimbProView" pc="268436050" symbol="onLayout"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="117" parent="globals/ClimbProView" pc="268436054" symbol="onLayout"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="14" lineNum="118" parent="globals/ClimbProView" pc="268436073" symbol="onLayout"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="125" parent="globals/ClimbProView" pc="268436093" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="127" parent="globals/ClimbProView" pc="268436097" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="128" parent="globals/ClimbProView" pc="268436110" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="129" parent="globals/ClimbProView" pc="268436141" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="131" parent="globals/ClimbProView" pc="268436172" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="132" parent="globals/ClimbProView" pc="268436185" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="133" parent="globals/ClimbProView" pc="268436206" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="134" parent="globals/ClimbProView" pc="268436287" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="135" parent="globals/ClimbProView" pc="268436321" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="136" parent="globals/ClimbProView" pc="268436331" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="137" parent="globals/ClimbProView" pc="268436341" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="138" parent="globals/ClimbProView" pc="268436375" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="139" parent="globals/ClimbProView" pc="268436400" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="143" parent="globals/ClimbProView" pc="268436422" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="147" parent="globals/ClimbProView" pc="268436464" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="148" parent="globals/ClimbProView" pc="268436504" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="149" parent="globals/ClimbProView" pc="268436517" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="150" parent="globals/ClimbProView" pc="268436530" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="151" parent="globals/ClimbProView" pc="268436546" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="154" parent="globals/ClimbProView" pc="268436565" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="155" parent="globals/ClimbProView" pc="268436582" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="156" parent="globals/ClimbProView" pc="268436639" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="157" parent="globals/ClimbProView" pc="268436655" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="158" parent="globals/ClimbProView" pc="268436671" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="158" parent="globals/ClimbProView" pc="268436711" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="160" parent="globals/ClimbProView" pc="268436746" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="161" parent="globals/ClimbProView" pc="268436763" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="162" parent="globals/ClimbProView" pc="268436806" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="163" parent="globals/ClimbProView" pc="268436847" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="164" parent="globals/ClimbProView" pc="268436864" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="165" parent="globals/ClimbProView" pc="268436877" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="166" parent="globals/ClimbProView" pc="268436893" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="167" parent="globals/ClimbProView" pc="268436906" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="168" parent="globals/ClimbProView" pc="268436927" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="169" parent="globals/ClimbProView" pc="268436967" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="15" lineNum="170" parent="globals/ClimbProView" pc="268436996" symbol="compute"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="179" parent="globals/ClimbProView" pc="268437035" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="180" parent="globals/ClimbProView" pc="268437039" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="183" parent="globals/ClimbProView" pc="268437046" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="184" parent="globals/ClimbProView" pc="268437068" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="185" parent="globals/ClimbProView" pc="268437090" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="186" parent="globals/ClimbProView" pc="268437109" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="189" parent="globals/ClimbProView" pc="268437128" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="192" parent="globals/ClimbProView" pc="268437261" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="16" lineNum="194" parent="globals/ClimbProView" pc="268437324" symbol="calculateDistance"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="200" parent="globals/ClimbProView" pc="268437331" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="204" parent="globals/ClimbProView" pc="268437335" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="204" parent="globals/ClimbProView" pc="268437352" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="204" parent="globals/ClimbProView" pc="268437368" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="205" parent="globals/ClimbProView" pc="268437381" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="206" parent="globals/ClimbProView" pc="268437427" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="210" parent="globals/ClimbProView" pc="268437434" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="213" parent="globals/ClimbProView" pc="268437522" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="214" parent="globals/ClimbProView" pc="268437558" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="216" parent="globals/ClimbProView" pc="268437570" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="218" parent="globals/ClimbProView" pc="268437583" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="219" parent="globals/ClimbProView" pc="268437610" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="220" parent="globals/ClimbProView" pc="268437671" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="222" parent="globals/ClimbProView" pc="268437738" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="223" parent="globals/ClimbProView" pc="268437751" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="224" parent="globals/ClimbProView" pc="268437764" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="227" parent="globals/ClimbProView" pc="268437780" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="228" parent="globals/ClimbProView" pc="268437829" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="229" parent="globals/ClimbProView" pc="268437887" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="231" parent="globals/ClimbProView" pc="268437951" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="232" parent="globals/ClimbProView" pc="268437987" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="232" parent="globals/ClimbProView" pc="268438012" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="233" parent="globals/ClimbProView" pc="268438051" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="233" parent="globals/ClimbProView" pc="268438076" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="234" parent="globals/ClimbProView" pc="268438115" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="234" parent="globals/ClimbProView" pc="268438140" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="235" parent="globals/ClimbProView" pc="268438179" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="235" parent="globals/ClimbProView" pc="268438190" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="237" parent="globals/ClimbProView" pc="268438229" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="238" parent="globals/ClimbProView" pc="268438373" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="241" parent="globals/ClimbProView" pc="268438400" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="242" parent="globals/ClimbProView" pc="268438433" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="244" parent="globals/ClimbProView" pc="268438444" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="245" parent="globals/ClimbProView" pc="268438451" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="248" parent="globals/ClimbProView" pc="268438489" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="250" parent="globals/ClimbProView" pc="268438506" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="251" parent="globals/ClimbProView" pc="268438542" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="252" parent="globals/ClimbProView" pc="268438597" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="255" parent="globals/ClimbProView" pc="268438635" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="256" parent="globals/ClimbProView" pc="268438671" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="257" parent="globals/ClimbProView" pc="268438725" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="258" parent="globals/ClimbProView" pc="268438758" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="259" parent="globals/ClimbProView" pc="268438791" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="262" parent="globals/ClimbProView" pc="268438863" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="263" parent="globals/ClimbProView" pc="268438884" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="267" parent="globals/ClimbProView" pc="268438935" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="268" parent="globals/ClimbProView" pc="268438971" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="269" parent="globals/ClimbProView" pc="268439025" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="270" parent="globals/ClimbProView" pc="268439058" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="271" parent="globals/ClimbProView" pc="268439091" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="274" parent="globals/ClimbProView" pc="268439163" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="275" parent="globals/ClimbProView" pc="268439180" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="17" lineNum="276" parent="globals/ClimbProView" pc="268439201" symbol="onUpdate"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="283" parent="globals/ClimbProView" pc="268439256" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="284" parent="globals/ClimbProView" pc="268439260" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="285" parent="globals/ClimbProView" pc="268439270" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="286" parent="globals/ClimbProView" pc="268439286" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="287" parent="globals/ClimbProView" pc="268439296" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="18" lineNum="288" parent="globals/ClimbProView" pc="268439392" symbol="secondsToTimeString"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="291" parent="globals/ClimbProView" pc="268439396" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="292" parent="globals/ClimbProView" pc="268439400" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="293" parent="globals/ClimbProView" pc="268439407" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="294" parent="globals/ClimbProView" pc="268439414" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="295" parent="globals/ClimbProView" pc="268439414" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="296" parent="globals/ClimbProView" pc="268439424" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="297" parent="globals/ClimbProView" pc="268439444" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="300" parent="globals/ClimbProView" pc="268439466" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="19" lineNum="303" parent="globals/ClimbProView" pc="268439493" symbol="maxAlt"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="306" parent="globals/ClimbProView" pc="268439497" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="307" parent="globals/ClimbProView" pc="268439501" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="308" parent="globals/ClimbProView" pc="268439509" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="309" parent="globals/ClimbProView" pc="268439516" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="310" parent="globals/ClimbProView" pc="268439516" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="312" parent="globals/ClimbProView" pc="268439516" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="313" parent="globals/ClimbProView" pc="268439531" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="314" parent="globals/ClimbProView" pc="268439538" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="315" parent="globals/ClimbProView" pc="268439561" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="316" parent="globals/ClimbProView" pc="268439593" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="320" parent="globals/ClimbProView" pc="268439613" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="321" parent="globals/ClimbProView" pc="268439620" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="323" parent="globals/ClimbProView" pc="268439630" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="324" parent="globals/ClimbProView" pc="268439635" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="325" parent="globals/ClimbProView" pc="268439650" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="20" lineNum="327" parent="globals/ClimbProView" pc="268439667" symbol="toArray"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="21" parent="globals/ClimbProView" pc="268440117" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="24" parent="globals/ClimbProView" pc="268440135" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="49" parent="globals/ClimbProView" pc="268440149" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Projects\\ConnectIQ\\ClimbPro\\source\\ClimbProView.mc" id="21" lineNum="21" parent="globals/ClimbProView" pc="268440117" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268440188" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="24" lineNum="8" parent="globals/Rez/Fonts" pc="268440190" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="25" lineNum="10" parent="globals/Rez/JsonData" pc="268440192" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268439671" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268439683" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268439696" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268439709" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268439733" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268439896" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268440059" symbol="MainLayout"/>
+<entry filename="Rez" id="27" lineNum="12" parent="globals/Rez/Layouts" pc="268440191" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="28" lineNum="33" parent="globals/Rez/Menus" pc="268440189" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="29" lineNum="35" parent="globals/Rez/Strings" pc="268440193" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440164" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440164" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="26" symbol="dist"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="42" method="true" symbol="toArray"/>
+<entry id="43" method="true" symbol="toArray"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry id="48" method="true" symbol="MainLayout"/>
+<entry id="49" method="true" symbol="MainLayout"/>
 <entry field="true" id="23" symbol="timer"/>
 <entry field="true" id="11" symbol="mValue"/>
 <entry field="true" id="25" symbol="lastTime"/>
@@ -204,7 +206,7 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="31" symbol="climbCode"/>
 <entry field="true" id="32" symbol="climbCode2"/>
-<entry field="true" id="51" symbol="AppName"/>
+<entry field="true" id="52" symbol="AppName"/>
 <entry field="true" id="8389807" symbol="data"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -219,11 +221,11 @@
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="50" symbol="times_title"/>
+<entry field="true" id="51" symbol="times_title"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry id="44" module="true" symbol="Menus"/>
+<entry id="45" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry field="true" id="28" symbol="resFinish"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
@@ -232,33 +234,34 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="9" object="true" symbol="ClimbProApp"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="40" method="true" symbol="secondsToTimeString"/>
+<entry id="41" method="true" symbol="secondsToTimeString"/>
 <entry id="8389137" method="true" symbol="compute"/>
 <entry field="true" id="33" symbol="allClimbs"/>
-<entry id="39" method="true" symbol="calculateDistance"/>
+<entry id="40" method="true" symbol="calculateDistance"/>
 <entry field="true" id="16" symbol="distToClimb"/>
 <entry field="true" id="27" symbol="resStart"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="49" symbol="code_title"/>
+<entry field="true" id="50" symbol="code_title"/>
 <entry field="true" id="37" symbol="noClimbs"/>
 <entry field="true" id="20" symbol="Lon"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="46" symbol="Finish"/>
+<entry field="true" id="47" symbol="Finish"/>
 <entry field="true" id="35" symbol="lowDistToClimb"/>
+<entry field="true" id="38" symbol="pointDist"/>
 <entry field="true" id="19" symbol="Lat"/>
-<entry field="true" id="38" symbol="proximityThreshold"/>
+<entry field="true" id="39" symbol="proximityThreshold"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry field="true" id="22" symbol="lastLon"/>
 <entry field="true" id="24" symbol="climbTime"/>
-<entry id="41" method="true" symbol="maxAlt"/>
+<entry id="42" method="true" symbol="maxAlt"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="45" symbol="Start"/>
+<entry field="true" id="46" symbol="Start"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="47" symbol="LauncherIcon"/>
+<entry field="true" id="48" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry field="true" id="21" symbol="lastLat"/>
 <entry field="true" id="34" symbol="closestClimb"/>
@@ -275,7 +278,7 @@
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="29" symbol="targetLon"/>
-<entry id="43" module="true" symbol="Layouts"/>
+<entry id="44" module="true" symbol="Layouts"/>
 <entry field="true" id="17" symbol="climbToGo"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry field="true" id="30" symbol="targetLat"/>
@@ -290,64 +293,63 @@
 <entry arg="true" endPc="268435689" name="dc" stackId="1" startPc="268435641"/>
 <entry endPc="268435936" name="maxheight" stackId="4" startPc="268435826"/>
 <entry endPc="268435949" name="i" stackId="3" startPc="268435826"/>
-<entry endPc="268436176" name="i" stackId="5" startPc="268436082"/>
-<entry endPc="268436183" name="climbCodes" stackId="2" startPc="268435694"/>
-<entry endPc="268436183" name="mySetting" stackId="1" startPc="268435694"/>
-<entry endPc="268436183" name="bob" stackId="6" startPc="268435694"/>
-<entry arg="true" endPc="268436227" name="dc" stackId="1" startPc="268436185"/>
-<entry endPc="268436547" name="tempDistToClimb" stackId="3" startPc="268436341"/>
-<entry endPc="268436560" name="i" stackId="2" startPc="268436341"/>
-<entry endPc="268437118" name="dispTime" stackId="4" startPc="268436961"/>
-<entry arg="true" endPc="268437131" name="info" stackId="1" startPc="268436228"/>
-<entry endPc="268437426" name="a" stackId="8" startPc="268437136"/>
-<entry endPc="268437426" name="dLat" stackId="6" startPc="268437136"/>
-<entry endPc="268437426" name="dLon" stackId="7" startPc="268437136"/>
-<entry endPc="268437426" name="R" stackId="5" startPc="268437136"/>
-<entry endPc="268437426" name="c" stackId="9" startPc="268437136"/>
-<entry arg="true" endPc="268437427" name="lon2" stackId="4" startPc="268437132"/>
-<entry arg="true" endPc="268437427" name="lon1" stackId="2" startPc="268437132"/>
-<entry arg="true" endPc="268437427" name="lat2" stackId="3" startPc="268437132"/>
-<entry arg="true" endPc="268437427" name="lat1" stackId="1" startPc="268437132"/>
-<entry endPc="268438334" name="x2" stackId="10" startPc="268437668"/>
-<entry endPc="268438334" name="x1" stackId="9" startPc="268437668"/>
-<entry endPc="268438334" name="h2" stackId="8" startPc="268437668"/>
-<entry endPc="268438334" name="h1" stackId="7" startPc="268437668"/>
-<entry endPc="268438334" name="pts" stackId="13" startPc="268437668"/>
-<entry endPc="268438334" name="grad" stackId="12" startPc="268437668"/>
-<entry endPc="268438334" name="y" stackId="11" startPc="268437668"/>
-<entry endPc="268438347" name="i" stackId="6" startPc="268437668"/>
-<entry endPc="268438879" name="progress" stackId="15" startPc="268438454"/>
-<entry endPc="268438879" name="lenNme" stackId="16" startPc="268438454"/>
-<entry endPc="268438879" name="dispTime" stackId="17" startPc="268438454"/>
-<entry endPc="268439196" name="dispTime" stackId="19" startPc="268439128"/>
-<entry endPc="268439199" name="lenNme" stackId="18" startPc="268438883"/>
-<entry endPc="268439199" name="lenName" stackId="14" startPc="268437641"/>
-<entry endPc="268439202" name="startX" stackId="4" startPc="268437432"/>
-<entry endPc="268439202" name="barWidth" stackId="3" startPc="268437432"/>
-<entry endPc="268439202" name="bob" stackId="2" startPc="268437432"/>
-<entry endPc="268439202" name="colours" stackId="5" startPc="268437432"/>
-<entry arg="true" endPc="268439203" name="dc" stackId="1" startPc="268437428"/>
-<entry endPc="268439342" name="hours" stackId="2" startPc="268439208"/>
-<entry endPc="268439342" name="minutes" stackId="3" startPc="268439208"/>
-<entry endPc="268439342" name="timeString" stackId="5" startPc="268439208"/>
-<entry endPc="268439342" name="seconds" stackId="4" startPc="268439208"/>
-<entry arg="true" endPc="268439343" name="totalSeconds" stackId="1" startPc="268439204"/>
-<entry endPc="268439443" name="counter" stackId="2" startPc="268439348"/>
-<entry endPc="268439443" name="biggest" stackId="3" startPc="268439348"/>
-<entry arg="true" endPc="268439444" name="alts" stackId="1" startPc="268439344"/>
-<entry endPc="268439614" name="i" stackId="7" startPc="268439598"/>
-<entry endPc="268439617" name="result" stackId="6" startPc="268439449"/>
-<entry endPc="268439617" name="location" stackId="5" startPc="268439449"/>
-<entry endPc="268439617" name="index" stackId="4" startPc="268439449"/>
-<entry endPc="268439617" name="array" stackId="3" startPc="268439449"/>
-<entry arg="true" endPc="268439618" name="string" stackId="1" startPc="268439445"/>
-<entry arg="true" endPc="268439618" name="splitter" stackId="2" startPc="268439445"/>
-<entry endPc="268440043" name="rez_cmp_local_custom_drawable_44121401418598895124" stackId="4" startPc="268439631"/>
-<entry endPc="268440043" name="rez_cmp_local_text_value" stackId="6" startPc="268439631"/>
-<entry endPc="268440043" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439631"/>
-<entry endPc="268440043" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439631"/>
-<entry endPc="268440043" name="rez_cmp_local_text_label" stackId="5" startPc="268439631"/>
-<entry arg="true" endPc="268440044" name="dc" stackId="1" startPc="268439619"/>
+<entry endPc="268436048" name="climbCodes" stackId="2" startPc="268435694"/>
+<entry endPc="268436048" name="mySetting" stackId="1" startPc="268435694"/>
+<entry arg="true" endPc="268436092" name="dc" stackId="1" startPc="268436050"/>
+<entry endPc="268436450" name="tempDistToClimb" stackId="3" startPc="268436206"/>
+<entry endPc="268436463" name="i" stackId="2" startPc="268436206"/>
+<entry endPc="268437021" name="dispTime" stackId="4" startPc="268436864"/>
+<entry arg="true" endPc="268437034" name="info" stackId="1" startPc="268436093"/>
+<entry endPc="268437329" name="a" stackId="8" startPc="268437039"/>
+<entry endPc="268437329" name="dLat" stackId="6" startPc="268437039"/>
+<entry endPc="268437329" name="dLon" stackId="7" startPc="268437039"/>
+<entry endPc="268437329" name="R" stackId="5" startPc="268437039"/>
+<entry endPc="268437329" name="c" stackId="9" startPc="268437039"/>
+<entry arg="true" endPc="268437330" name="lon2" stackId="4" startPc="268437035"/>
+<entry arg="true" endPc="268437330" name="lon1" stackId="2" startPc="268437035"/>
+<entry arg="true" endPc="268437330" name="lat2" stackId="3" startPc="268437035"/>
+<entry arg="true" endPc="268437330" name="lat1" stackId="1" startPc="268437035"/>
+<entry endPc="268438386" name="x2" stackId="9" startPc="268437610"/>
+<entry endPc="268438386" name="x1" stackId="8" startPc="268437610"/>
+<entry endPc="268438386" name="grad2" stackId="12" startPc="268437610"/>
+<entry endPc="268438386" name="grad1" stackId="11" startPc="268437610"/>
+<entry endPc="268438386" name="h2" stackId="7" startPc="268437610"/>
+<entry endPc="268438386" name="h1" stackId="6" startPc="268437610"/>
+<entry endPc="268438386" name="y" stackId="10" startPc="268437610"/>
+<entry endPc="268438386" name="grad" stackId="13" startPc="268437610"/>
+<entry endPc="268438386" name="pts" stackId="14" startPc="268437610"/>
+<entry endPc="268438399" name="i" stackId="5" startPc="268437610"/>
+<entry endPc="268438931" name="progress" stackId="16" startPc="268438506"/>
+<entry endPc="268438931" name="lenNme" stackId="17" startPc="268438506"/>
+<entry endPc="268438931" name="dispTime" stackId="18" startPc="268438506"/>
+<entry endPc="268439248" name="dispTime" stackId="20" startPc="268439180"/>
+<entry endPc="268439251" name="lenNme" stackId="19" startPc="268438935"/>
+<entry endPc="268439251" name="lenName" stackId="15" startPc="268437583"/>
+<entry endPc="268439254" name="startX" stackId="3" startPc="268437335"/>
+<entry endPc="268439254" name="barWidth" stackId="2" startPc="268437335"/>
+<entry endPc="268439254" name="colours" stackId="4" startPc="268437335"/>
+<entry arg="true" endPc="268439255" name="dc" stackId="1" startPc="268437331"/>
+<entry endPc="268439394" name="hours" stackId="2" startPc="268439260"/>
+<entry endPc="268439394" name="minutes" stackId="3" startPc="268439260"/>
+<entry endPc="268439394" name="timeString" stackId="5" startPc="268439260"/>
+<entry endPc="268439394" name="seconds" stackId="4" startPc="268439260"/>
+<entry arg="true" endPc="268439395" name="totalSeconds" stackId="1" startPc="268439256"/>
+<entry endPc="268439495" name="counter" stackId="2" startPc="268439400"/>
+<entry endPc="268439495" name="biggest" stackId="3" startPc="268439400"/>
+<entry arg="true" endPc="268439496" name="alts" stackId="1" startPc="268439396"/>
+<entry endPc="268439666" name="i" stackId="7" startPc="268439650"/>
+<entry endPc="268439669" name="result" stackId="6" startPc="268439501"/>
+<entry endPc="268439669" name="location" stackId="5" startPc="268439501"/>
+<entry endPc="268439669" name="index" stackId="4" startPc="268439501"/>
+<entry endPc="268439669" name="array" stackId="3" startPc="268439501"/>
+<entry arg="true" endPc="268439670" name="string" stackId="1" startPc="268439497"/>
+<entry arg="true" endPc="268439670" name="splitter" stackId="2" startPc="268439497"/>
+<entry endPc="268440095" name="rez_cmp_local_text_value" stackId="6" startPc="268439683"/>
+<entry endPc="268440095" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439683"/>
+<entry endPc="268440095" name="rez_cmp_local_custom_drawable_14315950951658513211" stackId="4" startPc="268439683"/>
+<entry endPc="268440095" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439683"/>
+<entry endPc="268440095" name="rez_cmp_local_text_label" stackId="5" startPc="268439683"/>
+<entry arg="true" endPc="268440096" name="dc" stackId="1" startPc="268439671"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Start"/>
@@ -362,14 +364,14 @@
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry label="globals/ClimbProView" offset="237" parentId="globals" symbolId="ClimbProView" type="class"/>
-<dataEntry label="globals/Rez" offset="604" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="683" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="738" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="769" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="800" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="839" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="870" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/ClimbProApp" offset="933" parentId="globals" symbolId="ClimbProApp" type="class"/>
+<dataEntry label="globals/Rez" offset="612" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="691" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="746" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="777" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="808" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="847" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="878" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/ClimbProApp" offset="941" parentId="globals" symbolId="ClimbProApp" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="ClimbProApp" startPc="268435456">
@@ -386,7 +388,7 @@
 <functionEntry accessMode="public" endPc="268435530" name="getInitialView" parent="ClimbProApp" startPc="268435489">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440160" name="&lt;init&gt;" parent="ClimbProApp" startPc="268440142">
+<functionEntry accessMode="protected" endPc="268440212" name="&lt;init&gt;" parent="ClimbProApp" startPc="268440194">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268435559" name="getApp" startPc="268435531">
@@ -403,70 +405,70 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440064" name="&lt;init&gt;" parent="Background" startPc="268440046">
+<functionEntry accessMode="protected" endPc="268440116" name="&lt;init&gt;" parent="Background" startPc="268440098">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436184" name="initialize" parent="ClimbProView" startPc="268435690">
+<functionEntry accessMode="public" endPc="268436049" name="initialize" parent="ClimbProView" startPc="268435690">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436227" name="onLayout" parent="ClimbProView" startPc="268436185">
+<functionEntry accessMode="public" endPc="268436092" name="onLayout" parent="ClimbProView" startPc="268436050">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437131" name="compute" parent="ClimbProView" startPc="268436228">
+<functionEntry accessMode="public" endPc="268437034" name="compute" parent="ClimbProView" startPc="268436093">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437427" name="calculateDistance" parent="ClimbProView" startPc="268437132">
+<functionEntry accessMode="public" endPc="268437330" name="calculateDistance" parent="ClimbProView" startPc="268437035">
 <param id="lat1"/>
 <param id="lon1"/>
 <param id="lat2"/>
 <param id="lon2"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439203" name="onUpdate" parent="ClimbProView" startPc="268437428">
+<functionEntry accessMode="public" endPc="268439255" name="onUpdate" parent="ClimbProView" startPc="268437331">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439343" name="secondsToTimeString" parent="ClimbProView" startPc="268439204">
+<functionEntry accessMode="public" endPc="268439395" name="secondsToTimeString" parent="ClimbProView" startPc="268439256">
 <param id="totalSeconds"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439444" name="maxAlt" parent="ClimbProView" startPc="268439344">
+<functionEntry accessMode="public" endPc="268439496" name="maxAlt" parent="ClimbProView" startPc="268439396">
 <param id="alts"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439618" name="toArray" parent="ClimbProView" startPc="268439445">
+<functionEntry accessMode="public" endPc="268439670" name="toArray" parent="ClimbProView" startPc="268439497">
 <param id="string"/>
 <param id="splitter"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440111" name="&lt;init&gt;" parent="ClimbProView" startPc="268440065">
+<functionEntry accessMode="protected" endPc="268440163" name="&lt;init&gt;" parent="ClimbProView" startPc="268440117">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440136" name="&lt;init&gt;" parent="Drawables" startPc="268440136">
+<functionEntry accessMode="protected" endPc="268440188" name="&lt;init&gt;" parent="Drawables" startPc="268440188">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440138" name="&lt;init&gt;" parent="Fonts" startPc="268440138">
+<functionEntry accessMode="protected" endPc="268440190" name="&lt;init&gt;" parent="Fonts" startPc="268440190">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440140" name="&lt;init&gt;" parent="JsonData" startPc="268440140">
+<functionEntry accessMode="protected" endPc="268440192" name="&lt;init&gt;" parent="JsonData" startPc="268440192">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440044" name="MainLayout" parent="Layouts" startPc="268439619">
+<functionEntry accessMode="public" endPc="268440096" name="MainLayout" parent="Layouts" startPc="268439671">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440139" name="&lt;init&gt;" parent="Layouts" startPc="268440139">
+<functionEntry accessMode="protected" endPc="268440191" name="&lt;init&gt;" parent="Layouts" startPc="268440191">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440137" name="&lt;init&gt;" parent="Menus" startPc="268440137">
+<functionEntry accessMode="protected" endPc="268440189" name="&lt;init&gt;" parent="Menus" startPc="268440189">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440141" name="&lt;init&gt;" parent="Strings" startPc="268440141">
+<functionEntry accessMode="protected" endPc="268440193" name="&lt;init&gt;" parent="Strings" startPc="268440193">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440135" name="&lt;init&gt;" parent="Rez" startPc="268440112">
+<functionEntry accessMode="protected" endPc="268440187" name="&lt;init&gt;" parent="Rez" startPc="268440164">
 <documentation/>
 </functionEntry>
 </functions>

@@ -51,6 +51,8 @@ class ClimbProView extends WatchUi.DataField {
     hidden var lowDistToClimb= 999999;
     hidden var climbTimes = "";
     hidden var noClimbs = 0;
+    hidden var pointDist = 0.0f;
+    
 
     // Climbcode
     // -43.56317257,172.598233192,800,Worsleys,0,40,50,110,120,130,140,170,180;-43.56724,172.59921,550,Sparks,0,30,60,90,150,180,200
@@ -99,13 +101,13 @@ class ClimbProView extends WatchUi.DataField {
         // targetLat = data[1].toFloat();
         // targetLon = data[2].toFloat();
         // length = data[3].toFloat();
-        // name = data[4];
-        for (var i=5; i < allClimbs[0][0]; i++)
-        {
-            climbgrad[i] = ((allClimbs[0][i+1].toFloat() -allClimbs[0][i].toFloat()) / 100f ) * 100f;
-             //System.println(climbgrad[i]);
-        }
-        var bob=1;
+        // // name = data[4];
+        // for (var i=5; i < allClimbs[0][0]; i++)
+        // {
+        //     climbgrad[i] = ((allClimbs[0][i+1].toFloat() -allClimbs[0][i].toFloat()) / 100f ) * 100f;
+        //      //System.println(climbgrad[i]);
+        // }
+        // var bob=1;
        // die;
     }
 
@@ -132,13 +134,13 @@ class ClimbProView extends WatchUi.DataField {
                 if ((tempDistToClimb < lowDistToClimb) && (inClimb != 1)) {
                     lowDistToClimb = tempDistToClimb;
                     distToClimb = tempDistToClimb;
-                    length = allClimbs[i][3];
+                    length = allClimbs[i][3].toFloat();
                     name = allClimbs[i][4];
                     data = allClimbs[i];
 
                 }
                 
-            //System.println(i + " "+tempDistToClimb);
+            System.println(i + " "+tempDistToClimb);
             }
            // System.println(tempDistToClimb);
             
@@ -199,8 +201,8 @@ class ClimbProView extends WatchUi.DataField {
         // Data values to plot
         
         // Graph parameters
-        var bob = length;
-        var barWidth = width.toFloat() /((length.toFloat())/100f);
+        if (length < 4500) {pointDist = 100.0f;} else {pointDist = 200.0f;}
+        var barWidth = width.toFloat() /((length.toFloat())/pointDist);
         var startX = 20;
 
         
@@ -222,7 +224,9 @@ class ClimbProView extends WatchUi.DataField {
             var y = height-5; // Adjust to place bars within the data field
             
             // Set the colour for each bar
-            var grad = ((data[i+1].toFloat() - data[i].toFloat()) / 100f ) * 100f;
+            var grad1 = (data[i+1].toFloat() - data[i].toFloat());
+            var grad2 = ((data[i+1].toFloat() - data[i].toFloat()) / pointDist );
+            var grad = ((data[i+1].toFloat() - data[i].toFloat()) / pointDist ) * 100f;
  
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
             if ((grad >=3) && (grad <6)) {dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);}
