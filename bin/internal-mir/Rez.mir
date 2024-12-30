@@ -1,0 +1,178 @@
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var Start as ResourceId;
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var Finish as ResourceId;
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 14; ]
+    module Layouts {
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 14; ]
+        <init> {
+        }
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 15; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start:
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 16 12 ]
+            [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
+            %rez_cmp_local_var_dc_getHeight.1 = local;
+            %tmp.1 = lgetv %dc;
+            %tmp.2 = getv function %tmp.1 :getHeight;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 18 12 ]
+            [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
+            %rez_cmp_local_var_dc_getWidth.2 = local;
+            %tmp.4 = lgetv %dc;
+            %tmp.5 = getv function %tmp.4 :getWidth;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 20 12 ]
+            [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
+            %rez_cmp_local_custom_drawable_91501561516209915214.3 = local;
+            %tmp.10 = getv ? :Background;
+            %tmp.7 = newc %tmp.10 ();
+            lputv %rez_cmp_local_custom_drawable_91501561516209915214.3 %tmp.7;
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 22 12 ]
+            [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
+            %rez_cmp_local_text_label.4 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "label";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_LT_GRAY;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.30 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.31 = 0.5;
+            %tmp.32 = mul %tmp.30 %tmp.31;
+            %tmp.33 = dup %tmp.26;
+            %tmp.34 = aputv %tmp.33 %tmp.28 %tmp.32;
+            %tmp.36 = const :locY;
+            %tmp.38 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.39 = lgetv %dc;
+            %tmp.40 = getv function %tmp.39 :getFontHeight;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :FONT_TINY;
+            %tmp.43 = invoke %tmp.39 %tmp.40(%tmp.42);
+            %tmp.44 = sub %tmp.38 %tmp.43;
+            %tmp.45 = 0.5;
+            %tmp.46 = mul %tmp.44 %tmp.45;
+            %tmp.47 = dup %tmp.34;
+            %tmp.48 = aputv %tmp.47 %tmp.36 %tmp.46;
+            %tmp.50 = const :justification;
+            %tmp.51 = getm $.Toybox.Graphics;
+            %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_CENTER;
+            %tmp.53 = dup %tmp.48;
+            %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
+            %tmp.56 = const :font;
+            %tmp.57 = getm $.Toybox.Graphics;
+            %tmp.58 = getv %tmp.57 :FONT_TINY;
+            %tmp.59 = dup %tmp.54;
+            %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+            %tmp.11 = newc %tmp.14 (%tmp.60);
+            lputv %rez_cmp_local_text_label.4 %tmp.11;
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 24 12 ]
+            [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
+            %rez_cmp_local_text_value.5 = local;
+            %tmp.63 = getm $.Toybox.WatchUi;
+            %tmp.64 = getv function ? %tmp.63 :Text;
+            %tmp.65 = newd 6;
+            %tmp.67 = const :identifier;
+            %tmp.68 = "value";
+            %tmp.69 = dup %tmp.65;
+            %tmp.70 = aputv %tmp.69 %tmp.67 %tmp.68;
+            %tmp.72 = const :color;
+            %tmp.73 = getm $.Toybox.Graphics;
+            %tmp.74 = getv %tmp.73 :COLOR_WHITE;
+            %tmp.75 = dup %tmp.70;
+            %tmp.76 = aputv %tmp.75 %tmp.72 %tmp.74;
+            %tmp.78 = const :locX;
+            %tmp.80 = lgetv %rez_cmp_local_var_dc_getWidth.2;
+            %tmp.81 = 0.5;
+            %tmp.82 = mul %tmp.80 %tmp.81;
+            %tmp.83 = dup %tmp.76;
+            %tmp.84 = aputv %tmp.83 %tmp.78 %tmp.82;
+            %tmp.86 = const :locY;
+            %tmp.88 = lgetv %rez_cmp_local_var_dc_getHeight.1;
+            %tmp.89 = lgetv %dc;
+            %tmp.90 = getv function %tmp.89 :getFontHeight;
+            %tmp.91 = getm $.Toybox.Graphics;
+            %tmp.92 = getv %tmp.91 :FONT_LARGE;
+            %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.92);
+            %tmp.94 = sub %tmp.88 %tmp.93;
+            %tmp.95 = 0.5;
+            %tmp.96 = mul %tmp.94 %tmp.95;
+            %tmp.97 = dup %tmp.84;
+            %tmp.98 = aputv %tmp.97 %tmp.86 %tmp.96;
+            %tmp.100 = const :justification;
+            %tmp.101 = getm $.Toybox.Graphics;
+            %tmp.102 = getv %tmp.101 :TEXT_JUSTIFY_CENTER;
+            %tmp.103 = dup %tmp.98;
+            %tmp.104 = aputv %tmp.103 %tmp.100 %tmp.102;
+            %tmp.106 = const :font;
+            %tmp.107 = getm $.Toybox.Graphics;
+            %tmp.108 = getv %tmp.107 :FONT_LARGE;
+            %tmp.109 = dup %tmp.104;
+            %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
+            %tmp.61 = newc %tmp.64 (%tmp.110);
+            lputv %rez_cmp_local_text_value.5 %tmp.61;
+[ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 26 12 ]
+            %tmp.111 = newa 3 Array<WatchUi.Drawable>;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_91501561516209915214.3;
+            %tmp.114 = dup %tmp.111;
+            %tmp.115 = aputv %tmp.114 0 %tmp.113;
+            %tmp.117 = lgetv %rez_cmp_local_text_label.4;
+            %tmp.118 = dup %tmp.115;
+            %tmp.119 = aputv %tmp.118 1 %tmp.117;
+            %tmp.121 = lgetv %rez_cmp_local_text_value.5;
+            %tmp.122 = dup %tmp.119;
+            %tmp.123 = aputv %tmp.122 2 %tmp.121;
+            ret %tmp.123;
+d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop:
+        }
+    }
+    [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 30; ]
+    module Strings {
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 30; ]
+        <init> {
+        }
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var code_title as ResourceId;
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var times_title as ResourceId;
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
+        var label as ResourceId;
+        [ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+}
+[ @file = "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}
