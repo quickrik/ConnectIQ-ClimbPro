@@ -49,10 +49,10 @@ d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_star
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 20 12 ]
             [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
-            %rez_cmp_local_custom_drawable_91501561516209915214.3 = local;
+            %rez_cmp_local_custom_drawable_18666707841523120687.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_91501561516209915214.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_18666707841523120687.3 %tmp.7;
 [ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 22 12 ]
             [ "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_start" "d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_stop" ]
             %rez_cmp_local_text_label.4 = local;
@@ -145,7 +145,7 @@ d_repos_ConnectIQ_ClimbPro_bin_gen_006_B3112_00_source_Rez_mcgen_15_74_27_8_star
             lputv %rez_cmp_local_text_value.5 %tmp.61;
 [ "d:\repos\ConnectIQ-ClimbPro\bin\gen\006-B3112-00\source\Rez.mcgen" 26 12 ]
             %tmp.111 = newa 3 Array<WatchUi.Drawable>;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_91501561516209915214.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_18666707841523120687.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;

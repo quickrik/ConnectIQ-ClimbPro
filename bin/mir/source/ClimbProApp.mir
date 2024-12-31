@@ -29,29 +29,29 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_7_26_9_4_stop:
     function onStop(state as Dictionary or Null) as Void {
     }
     //! Return the initial view of your application here
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc"; @line = 20; ]
-    function getInitialView() as Array<Views or InputDelegates> or Null {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_20_65_22_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc" 21 8 ]
-        %tmp.1 = newa 1 Array<Views or InputDelegates>;
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc"; @line = 24; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_24_68_26_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc" 25 8 ]
+        %tmp.1 = newa 1;
         %tmp.5 = getv ? :ClimbProView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_20_65_22_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_24_68_26_4_stop:
     }
 }
-[ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc"; @line = 26; ]
+[ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc"; @line = 30; ]
 function getApp() as ClimbProApp {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_26_33_28_0_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc" 27 4 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_30_33_32_0_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc" 31 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 ClimbProApp;
     ret %tmp.4;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_26_33_28_0_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProApp_mc_30_33_32_0_stop:
 }
 [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProApp.mc"; @line = 1; ]
 <init> {

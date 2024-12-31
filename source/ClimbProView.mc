@@ -86,29 +86,6 @@ class ClimbProView extends WatchUi.DataField {
 
         mValue = 0.0f;
         
-        //maxBarHeight = maxAlt(data);
-
-        // for(var i=0; i <2;i++) {
-        //     allclimbs[i] = blah;
-        // }
-        // allClimbs[0] = toArray(climbCode, ",");
-        // allClimbs[1] = toArray(climbCode2, ",");
-
-        // var bobo = allClimbs[0];
-        // var boba = allClimbs[1];
-
-        // data = toArray(climbCode, ",");
-        // targetLat = data[1].toFloat();
-        // targetLon = data[2].toFloat();
-        // length = data[3].toFloat();
-        // // name = data[4];
-        // for (var i=5; i < allClimbs[0][0]; i++)
-        // {
-        //     climbgrad[i] = ((allClimbs[0][i+1].toFloat() -allClimbs[0][i].toFloat()) / 100f ) * 100f;
-        //      //System.println(climbgrad[i]);
-        // }
-        // var bob=1;
-       // die;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -128,7 +105,7 @@ class ClimbProView extends WatchUi.DataField {
             Lat = info.currentLocation.toDegrees()[0];
             Lon = info.currentLocation.toDegrees()[1];
             
-            lowDistToClimb = 99999;
+            lowDistToClimb = 999999999;
             for(var i=0; i < noClimbs; i++) {
                 var tempDistToClimb = calculateDistance(Lat, Lon, allClimbs[i][1].toFloat(), allClimbs[i][2].toFloat());
                 if ((tempDistToClimb < lowDistToClimb) && (inClimb != 1)) {
@@ -197,7 +174,7 @@ class ClimbProView extends WatchUi.DataField {
 
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
-    function onUpdate(dc) {
+    function onUpdate(dc as Dc) as Void {
         // Data values to plot
         
         // Graph parameters

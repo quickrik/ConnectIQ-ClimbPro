@@ -136,13 +136,13 @@ class ClimbProView extends WatchUi.DataField{
     const proximityThreshold = 25;
     [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 67; ]
     function initialize() as Void {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_start:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_start:
 [ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 68 8 ]
         %tmp.2 = getv ? :DataField;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
 [ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 70 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_stop" ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_stop" ]
         %mySetting.1 = local;
         %tmp.4 = getm $.Toybox.Application.Properties;
         %tmp.5 = getv function %tmp.4 :getValue;
@@ -156,7 +156,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_start:
         %tmp.11 = "";
         invoke %tmp.8 %tmp.9(%tmp.10, %tmp.11);
 [ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 73 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_stop" ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_stop" ]
         %climbCodes.2 = local;
         %tmp.12 = self;
         %tmp.13 = getv function %tmp.12 :toArray;
@@ -254,36 +254,36 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_76_8_82_8_for_end:
 [ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 87 8 ]
         %tmp.81 = 0.0f;
         putv self :mValue %tmp.81;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_112_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_67_26_89_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 116; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 93; ]
     function onLayout(dc as Dc) as Void {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_116_40_119_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 117 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_93_40_96_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 94 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getHeight;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :height %tmp.3;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 118 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 95 8 ]
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getWidth;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         putv self :width %tmp.6;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_116_40_119_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_93_40_96_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 125; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 102; ]
     function compute(info as Activity.Info) as Void {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_125_52_178_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 127 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_8_176_8_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_102_52_155_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 104 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_8_153_8_if_stmt:
         %tmp.1 = lgetv %info;
         %tmp.2 = getv %tmp.1 :currentLocation;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_8_176_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_8_176_8_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_42_176_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 128 12 ]
+        bf %tmp.4 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_8_153_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_8_153_8_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_42_153_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 105 12 ]
         %tmp.5 = lgetv %info;
         %tmp.6 = getv %tmp.5 :currentLocation;
         %tmp.7 = getv function %tmp.6 :toDegrees;
@@ -291,7 +291,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_42_176_8_start:
         %tmp.9 = 0;
         %tmp.10 = agetv %tmp.8 %tmp.9;
         putv self :Lat %tmp.10;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 129 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 106 12 ]
         %tmp.11 = lgetv %info;
         %tmp.12 = getv %tmp.11 :currentLocation;
         %tmp.13 = getv function %tmp.12 :toDegrees;
@@ -299,25 +299,25 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_42_176_8_start:
         %tmp.15 = 1;
         %tmp.16 = agetv %tmp.14 %tmp.15;
         putv self :Lon %tmp.16;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 131 12 ]
-        %tmp.17 = 99999;
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 108 12 ]
+        %tmp.17 = 999999999;
         putv self :lowDistToClimb %tmp.17;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 132 12 ]
-        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_init:
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_end" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 109 12 ]
+        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_init:
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_end" ]
         %i.1 = local;
         %tmp.18 = 0;
         lputv %i.1 %tmp.18;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_test:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_test:
         %tmp.20 = lgetv %i.1;
         %tmp.22 = getv ? :noClimbs;
         %tmp.23 = lt %tmp.20 %tmp.22;
-        bf %tmp.23 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_begin:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_44_144_12_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 133 16 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_44_144_12_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_44_144_12_stop" ]
+        bf %tmp.23 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_44_121_12_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 110 16 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_44_121_12_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_44_121_12_stop" ]
         %tempDistToClimb.2 = local;
         %tmp.24 = self;
         %tmp.25 = getv function %tmp.24 :calculateDistance;
@@ -339,30 +339,30 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_44_144_12_start:
         %tmp.47 = invoke %tmp.45 %tmp.46();
         %tmp.48 = invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29, %tmp.38, %tmp.47);
         lputv %tempDistToClimb.2 %tmp.48;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 134 16 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_20_134_71_begin:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 111 16 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_20_111_71_begin:
         %tmp.50 = lgetv %tempDistToClimb.2;
         %tmp.52 = getv ? :lowDistToClimb;
         %tmp.53 = lt %tmp.50 %tmp.52;
-        bf %tmp.53 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_58_134_71_true:
+        bf %tmp.53 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_58_111_71_true:
         %tmp.55 = getv ? :inClimb;
         %tmp.56 = 1;
         %tmp.57 = ne %tmp.55 %tmp.56;
         push %tmp.57;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_58_134_71_end:
-        %tmp.58 = phi [%tmp.53 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_20_134_71_begin] [%tmp.57 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_58_134_71_true] [%tmp.58 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_58_134_71_end];
-        bf %tmp.58 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_74_141_16_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 135 20 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_58_111_71_end:
+        %tmp.58 = phi [%tmp.53 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_20_111_71_begin] [%tmp.57 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_58_111_71_true] [%tmp.58 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_58_111_71_end];
+        bf %tmp.58 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_74_118_16_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 112 20 ]
         %tmp.60 = lgetv %tempDistToClimb.2;
         putv self :lowDistToClimb %tmp.60;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 136 20 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 113 20 ]
         %tmp.62 = lgetv %tempDistToClimb.2;
         putv self :distToClimb %tmp.62;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 137 20 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 114 20 ]
         %tmp.64 = getv ? :allClimbs;
         %tmp.66 = lgetv %i.1;
         %tmp.67 = agetv %tmp.64 %tmp.66;
@@ -371,22 +371,22 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_74_141_16_start:
         %tmp.70 = getv function %tmp.69 :toFloat;
         %tmp.71 = invoke %tmp.69 %tmp.70();
         putv self :length %tmp.71;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 138 20 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 115 20 ]
         %tmp.73 = getv ? :allClimbs;
         %tmp.75 = lgetv %i.1;
         %tmp.76 = agetv %tmp.73 %tmp.75;
         %tmp.77 = 4;
         %tmp.78 = agetv %tmp.76 %tmp.77;
         putv self :name %tmp.78;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 139 20 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 116 20 ]
         %tmp.80 = getv ? :allClimbs;
         %tmp.82 = lgetv %i.1;
         %tmp.83 = agetv %tmp.80 %tmp.82;
         putv self :data %tmp.83;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_74_141_16_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 143 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_74_118_16_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_111_16_118_16_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 120 12 ]
         %tmp.85 = getv ? :System;
         %tmp.86 = getv function %tmp.85 :println;
         %tmp.88 = lgetv %i.1;
@@ -395,55 +395,55 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_134_16_141_16_if_end:
         %tmp.92 = lgetv %tempDistToClimb.2;
         %tmp.93 = add %tmp.90 %tmp.92;
         invoke %tmp.85 %tmp.86(%tmp.93);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_44_144_12_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_incr:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 132 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_44_121_12_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_incr:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 109 ]
         %tmp.96 = lgetv %i.1;
         %tmp.97 = add %tmp.96 1;
         lputv %i.1 %tmp.97;
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_test;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_132_12_144_12_for_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 147 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_16_147_66_begin:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_test;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_109_12_121_12_for_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 124 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_16_124_66_begin:
         %tmp.99 = getv ? :distToClimb;
         %tmp.101 = getv ? :proximityThreshold;
         %tmp.102 = lte %tmp.99 %tmp.101;
-        bf %tmp.102 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_55_147_66_true:
+        bf %tmp.102 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_55_124_66_true:
         %tmp.104 = getv ? :inClimb;
         %tmp.105 = 0;
         %tmp.106 = eq %tmp.104 %tmp.105;
         push %tmp.106;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_55_147_66_end:
-        %tmp.107 = phi [%tmp.102 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_16_147_66_begin] [%tmp.106 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_55_147_66_true] [%tmp.107 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_55_147_66_end];
-        bf %tmp.107 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_69_152_12_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 148 16 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_55_124_66_end:
+        %tmp.107 = phi [%tmp.102 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_16_124_66_begin] [%tmp.106 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_55_124_66_true] [%tmp.107 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_55_124_66_end];
+        bf %tmp.107 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_69_129_12_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 125 16 ]
         %tmp.108 = 1;
         putv self :inClimb %tmp.108;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 149 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 126 16 ]
         %tmp.109 = 0;
         putv self :covered %tmp.109;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 150 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 127 16 ]
         %tmp.111 = getv ? :Lat;
         putv self :lastLat %tmp.111;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 151 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 128 16 ]
         %tmp.113 = getv ? :Lon;
         putv self :lastLon %tmp.113;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_69_152_12_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_147_12_152_12_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 154 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_12_174_12_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_69_129_12_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_124_12_129_12_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 131 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_12_151_12_if_stmt:
         %tmp.115 = getv ? :inClimb;
         %tmp.116 = 1;
         %tmp.117 = eq %tmp.115 %tmp.116;
-        bf %tmp.117 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_12_174_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_12_174_12_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_29_174_12_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 155 16 ]
+        bf %tmp.117 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_12_151_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_12_151_12_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_29_151_12_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 132 16 ]
         %tmp.118 = getv self :covered;
         %tmp.119 = self;
         %tmp.120 = getv function %tmp.119 :calculateDistance;
@@ -454,48 +454,48 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_29_174_12_start:
         %tmp.129 = invoke %tmp.119 %tmp.120(%tmp.122, %tmp.124, %tmp.126, %tmp.128);
         %tmp.130 = add %tmp.118 %tmp.129;
         putv self :covered dup %tmp.130;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 156 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 133 16 ]
         %tmp.132 = getv ? :Lat;
         putv self :lastLat %tmp.132;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 157 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 134 16 ]
         %tmp.134 = getv ? :Lon;
         putv self :lastLon %tmp.134;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 158 16 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_20_158_65_begin:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 135 16 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_20_135_65_begin:
         %tmp.136 = getv ? :covered;
         %tmp.138 = getv ? :proximityThreshold;
         %tmp.139 = gte %tmp.136 %tmp.138;
-        bf %tmp.139 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_56_158_65_true:
+        bf %tmp.139 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_56_135_65_true:
         %tmp.141 = getv ? :timer;
         %tmp.142 = 0;
         %tmp.143 = eq %tmp.141 %tmp.142;
         push %tmp.143;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_56_158_65_end:
-        %tmp.144 = phi [%tmp.139 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_20_158_65_begin] [%tmp.143 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_56_158_65_true] [%tmp.144 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_56_158_65_end];
-        bf %tmp.144 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_68_158_96_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 158 69 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_56_135_65_end:
+        %tmp.144 = phi [%tmp.139 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_20_135_65_begin] [%tmp.143 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_56_135_65_true] [%tmp.144 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_56_135_65_end];
+        bf %tmp.144 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_68_135_96_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 135 69 ]
         %tmp.145 = getm $.Toybox.Time;
         %tmp.146 = getv function %tmp.145 :now;
         %tmp.147 = invoke %tmp.145 %tmp.146();
         %tmp.148 = getv function %tmp.147 :value;
         %tmp.149 = invoke %tmp.147 %tmp.148();
         putv self :timer %tmp.149;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_68_158_96_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_158_16_158_96_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 160 16 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_16_173_16_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_68_135_96_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_135_16_135_96_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 137 16 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_16_150_16_if_stmt:
         %tmp.151 = getv ? :timer;
         %tmp.152 = 0;
         %tmp.153 = ne %tmp.151 %tmp.152;
-        bf %tmp.153 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_16_173_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_16_173_16_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_31_173_16_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 161 20 ]
+        bf %tmp.153 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_16_150_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_16_150_16_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_31_150_16_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 138 20 ]
         %tmp.155 = getv ? :length;
         %tmp.156 = getv function %tmp.155 :toFloat;
         %tmp.157 = invoke %tmp.155 %tmp.156();
@@ -504,7 +504,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_31_173_16_start:
         %tmp.162 = sub %tmp.159 %tmp.161;
         %tmp.163 = sub %tmp.157 %tmp.162;
         putv self :climbToGo %tmp.163;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 162 20 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 139 20 ]
         %tmp.164 = getm $.Toybox.Time;
         %tmp.165 = getv function %tmp.164 :now;
         %tmp.166 = invoke %tmp.164 %tmp.165();
@@ -513,32 +513,32 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_31_173_16_start:
         %tmp.170 = getv ? :timer;
         %tmp.171 = sub %tmp.168 %tmp.170;
         putv self :climbTime %tmp.171;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 163 20 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_20_171_20_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 140 20 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_20_148_20_if_stmt:
         %tmp.173 = getv ? :climbToGo;
         %tmp.174 = 0;
         %tmp.175 = lte %tmp.173 %tmp.174;
-        bf %tmp.175 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_20_171_20_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_20_171_20_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_40_171_20_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 164 24 ]
+        bf %tmp.175 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_20_148_20_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_20_148_20_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_40_148_20_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 141 24 ]
         %tmp.176 = 0;
         putv self :inClimb %tmp.176;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 165 24 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 142 24 ]
         %tmp.178 = getv ? :climbTime;
         putv self :lastTime %tmp.178;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 166 24 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 143 24 ]
         %tmp.179 = 0;
         putv self :timer %tmp.179;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 167 24 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_40_171_20_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_40_171_20_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 144 24 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_40_148_20_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_40_148_20_stop" ]
         %dispTime.3 = local;
         %tmp.180 = self;
         %tmp.181 = getv function %tmp.180 :secondsToTimeString;
         %tmp.183 = getv ? :lastTime;
         %tmp.184 = invoke %tmp.180 %tmp.181(%tmp.183);
         lputv %dispTime.3 %tmp.184;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 168 24 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 145 24 ]
         %tmp.186 = getv ? :climbTimes;
         %tmp.188 = getv ? :name;
         %tmp.189 = add %tmp.186 %tmp.188;
@@ -549,41 +549,41 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_40_171_20_start:
         %tmp.195 = " ";
         %tmp.196 = add %tmp.194 %tmp.195;
         putv self :climbTimes %tmp.196;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 169 24 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 146 24 ]
         %tmp.197 = getm $.Toybox.Application.Properties;
         %tmp.198 = getv function %tmp.197 :setValue;
         %tmp.199 = "climbtimes";
         %tmp.201 = getv ? :climbTimes;
         invoke %tmp.197 %tmp.198(%tmp.199, %tmp.201);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 170 24 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 147 24 ]
         %tmp.203 = getv ? :System;
         %tmp.204 = getv function %tmp.203 :println;
         %tmp.206 = getv ? :climbTimes;
         invoke %tmp.203 %tmp.204(%tmp.206);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_40_171_20_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_20_171_20_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_163_20_171_20_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_31_173_16_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_16_173_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_160_16_173_16_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_29_174_12_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_12_174_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_154_12_174_12_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_42_176_8_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_8_176_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_127_8_176_8_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_125_52_178_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_40_148_20_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_20_148_20_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_140_20_148_20_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_31_150_16_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_16_150_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_137_16_150_16_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_29_151_12_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_12_151_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_131_12_151_12_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_42_153_8_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_8_153_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_104_8_153_8_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_102_52_155_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 179; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 156; ]
     function calculateDistance(lat1, lon1, lat2, lon2) {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 180 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 157 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop" ]
         %R.1 = local;
         %tmp.1 = 6371000;
         lputv %R.1 %tmp.1;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 183 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 160 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop" ]
         %dLat.2 = local;
         %tmp.2 = getm $.Toybox.Math;
         %tmp.3 = getv function %tmp.2 :toRadians;
@@ -592,8 +592,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start:
         %tmp.8 = sub %tmp.5 %tmp.7;
         %tmp.9 = invoke %tmp.2 %tmp.3(%tmp.8);
         lputv %dLat.2 %tmp.9;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 184 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 161 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop" ]
         %dLon.3 = local;
         %tmp.10 = getm $.Toybox.Math;
         %tmp.11 = getv function %tmp.10 :toRadians;
@@ -602,20 +602,20 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start:
         %tmp.16 = sub %tmp.13 %tmp.15;
         %tmp.17 = invoke %tmp.10 %tmp.11(%tmp.16);
         lputv %dLon.3 %tmp.17;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 185 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 162 8 ]
         %tmp.18 = getm $.Toybox.Math;
         %tmp.19 = getv function %tmp.18 :toRadians;
         %tmp.21 = lgetv %lat1;
         %tmp.22 = invoke %tmp.18 %tmp.19(%tmp.21);
         lputv %lat1 %tmp.22;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 186 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 163 8 ]
         %tmp.23 = getm $.Toybox.Math;
         %tmp.24 = getv function %tmp.23 :toRadians;
         %tmp.26 = lgetv %lat2;
         %tmp.27 = invoke %tmp.23 %tmp.24(%tmp.26);
         lputv %lat2 %tmp.27;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 189 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 166 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop" ]
         %a.4 = local;
         %tmp.28 = getm $.Toybox.Math;
         %tmp.29 = getv function %tmp.28 :sin;
@@ -655,8 +655,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start:
         %tmp.69 = mul %tmp.61 %tmp.68;
         %tmp.70 = add %tmp.42 %tmp.69;
         lputv %a.4 %tmp.70;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 192 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 169 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop" ]
         %c.5 = local;
         %tmp.71 = 2;
         %tmp.72 = getm $.Toybox.Math;
@@ -674,38 +674,38 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_start:
         %tmp.86 = invoke %tmp.72 %tmp.73(%tmp.78, %tmp.85);
         %tmp.87 = mul %tmp.71 %tmp.86;
         lputv %c.5 %tmp.87;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 194 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 171 8 ]
         %tmp.89 = lgetv %R.1;
         %tmp.91 = lgetv %c.5;
         %tmp.92 = mul %tmp.89 %tmp.91;
         ret %tmp.92;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_179_59_195_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_156_59_172_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 200; ]
-    function onUpdate(dc) {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 204 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_stmt:
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 177; ]
+    function onUpdate(dc as Dc) as Void {
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 181 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_stmt:
         %tmp.2 = getv ? :length;
         %tmp.3 = 4500;
         %tmp.4 = lt %tmp.2 %tmp.3;
-        bf %tmp.4 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_false;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_27_204_47_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 204 28 ]
+        bf %tmp.4 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_false;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_27_181_47_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 181 28 ]
         %tmp.5 = 100.0f;
         putv self :pointDist %tmp.5;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_27_204_47_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_false:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_54_204_74_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 204 55 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_27_181_47_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_false:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_54_181_74_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 181 55 ]
         %tmp.6 = 200.0f;
         putv self :pointDist %tmp.6;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_54_204_74_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 205 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_54_181_74_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_181_8_181_74_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 182 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_stop" ]
         %barWidth.1 = local;
         %tmp.8 = getv ? :width;
         %tmp.9 = getv function %tmp.8 :toFloat;
@@ -717,13 +717,13 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_end:
         %tmp.17 = div %tmp.14 %tmp.16;
         %tmp.18 = div %tmp.10 %tmp.17;
         lputv %barWidth.1 %tmp.18;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 206 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 183 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_stop" ]
         %startX.2 = local;
         %tmp.19 = 20;
         lputv %startX.2 %tmp.19;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 210 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 187 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_stop" ]
         %colours.3 = local;
         %tmp.20 = newa 4;
         %tmp.21 = getm $.Toybox.Graphics;
@@ -743,7 +743,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_end:
         %tmp.35 = dup %tmp.32;
         %tmp.36 = aputv %tmp.35 3 %tmp.34;
         lputv %colours.3 %tmp.36;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 213 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 190 8 ]
         %tmp.37 = lgetv %dc;
         %tmp.38 = getv function %tmp.37 :setColor;
         %tmp.39 = getm $.Toybox.Graphics;
@@ -751,37 +751,37 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_204_8_204_74_if_end:
         %tmp.41 = getm $.Toybox.Graphics;
         %tmp.42 = getv %tmp.41 :COLOR_WHITE;
         invoke %tmp.37 %tmp.38(%tmp.40, %tmp.42);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 214 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 191 8 ]
         %tmp.43 = lgetv %dc;
         %tmp.44 = getv function %tmp.43 :clear;
         invoke %tmp.43 %tmp.44();
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 216 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_8_279_8_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 193 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_8_256_8_if_stmt:
         %tmp.46 = getv ? :data;
         %tmp.47 = null;
         %tmp.48 = ne %tmp.46 %tmp.47;
-        bf %tmp.48 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_8_279_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_8_279_8_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_26_279_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 218 8 ]
-        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_init:
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_end" ]
+        bf %tmp.48 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_8_256_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_8_256_8_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_26_256_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 195 8 ]
+        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_init:
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_end" ]
         %i.4 = local;
         %tmp.49 = 5;
         lputv %i.4 %tmp.49;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_test:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_test:
         %tmp.51 = lgetv %i.4;
         %tmp.53 = getv ? :data;
         %tmp.54 = as %tmp.53 { (!Null) };
         %tmp.55 = 0;
         %tmp.56 = agetv %tmp.54 %tmp.55;
         %tmp.57 = lt %tmp.51 %tmp.56;
-        bf %tmp.57 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_begin:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 219 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+        bf %tmp.57 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 196 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %h1.5 = local;
         %tmp.59 = getv ? :height;
         %tmp.60 = 5;
@@ -800,8 +800,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.77 = mul %tmp.72 %tmp.76;
         %tmp.78 = sub %tmp.61 %tmp.77;
         lputv %h1.5 %tmp.78;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 220 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 197 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %h2.6 = local;
         %tmp.80 = getv ? :height;
         %tmp.81 = 5;
@@ -821,8 +821,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.99 = mul %tmp.94 %tmp.98;
         %tmp.100 = sub %tmp.82 %tmp.99;
         lputv %h2.6 %tmp.100;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 222 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 199 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %x1.7 = local;
         %tmp.102 = lgetv %i.4;
         %tmp.103 = 5;
@@ -830,8 +830,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.106 = lgetv %barWidth.1;
         %tmp.107 = mul %tmp.104 %tmp.106;
         lputv %x1.7 %tmp.107;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 223 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 200 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %x2.8 = local;
         %tmp.109 = lgetv %i.4;
         %tmp.110 = 4;
@@ -839,15 +839,15 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.113 = lgetv %barWidth.1;
         %tmp.114 = mul %tmp.111 %tmp.113;
         lputv %x2.8 %tmp.114;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 224 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 201 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %y.9 = local;
         %tmp.116 = getv ? :height;
         %tmp.117 = 5;
         %tmp.118 = sub %tmp.116 %tmp.117;
         lputv %y.9 %tmp.118;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 227 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 204 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %grad1.10 = local;
         %tmp.120 = getv ? :data;
         %tmp.122 = lgetv %i.4;
@@ -863,8 +863,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.134 = invoke %tmp.132 %tmp.133();
         %tmp.135 = sub %tmp.127 %tmp.134;
         lputv %grad1.10 %tmp.135;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 228 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 205 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %grad2.11 = local;
         %tmp.137 = getv ? :data;
         %tmp.139 = lgetv %i.4;
@@ -882,8 +882,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.154 = getv ? :pointDist;
         %tmp.155 = div %tmp.152 %tmp.154;
         lputv %grad2.11 %tmp.155;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 229 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 206 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %grad.12 = local;
         %tmp.157 = getv ? :data;
         %tmp.159 = lgetv %i.4;
@@ -903,7 +903,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.176 = 100f;
         %tmp.177 = mul %tmp.175 %tmp.176;
         lputv %grad.12 %tmp.177;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 231 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 208 12 ]
         %tmp.178 = lgetv %dc;
         %tmp.179 = getv function %tmp.178 :setColor;
         %tmp.180 = getm $.Toybox.Graphics;
@@ -911,24 +911,24 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start:
         %tmp.182 = getm $.Toybox.Graphics;
         %tmp.183 = getv %tmp.182 :COLOR_TRANSPARENT;
         invoke %tmp.178 %tmp.179(%tmp.181, %tmp.183);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 232 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_16_232_38_begin:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 209 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_16_209_38_begin:
         %tmp.185 = lgetv %grad.12;
         %tmp.186 = 3;
         %tmp.187 = gte %tmp.185 %tmp.186;
-        bf %tmp.187 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_30_232_38_true:
+        bf %tmp.187 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_30_209_38_true:
         %tmp.189 = lgetv %grad.12;
         %tmp.190 = 6;
         %tmp.191 = lt %tmp.189 %tmp.190;
         push %tmp.191;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_30_232_38_end:
-        %tmp.192 = phi [%tmp.187 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_16_232_38_begin] [%tmp.191 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_30_232_38_true] [%tmp.192 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_30_232_38_end];
-        bf %tmp.192 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_41_232_105_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 232 42 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_30_209_38_end:
+        %tmp.192 = phi [%tmp.187 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_16_209_38_begin] [%tmp.191 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_30_209_38_true] [%tmp.192 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_30_209_38_end];
+        bf %tmp.192 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_41_209_105_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 209 42 ]
         %tmp.193 = lgetv %dc;
         %tmp.194 = getv function %tmp.193 :setColor;
         %tmp.195 = getm $.Toybox.Graphics;
@@ -936,27 +936,27 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_41_232_105_start:
         %tmp.197 = getm $.Toybox.Graphics;
         %tmp.198 = getv %tmp.197 :COLOR_TRANSPARENT;
         invoke %tmp.193 %tmp.194(%tmp.196, %tmp.198);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_41_232_105_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_232_12_232_105_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 233 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_16_233_38_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_41_209_105_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_209_12_209_105_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 210 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_16_210_38_begin:
         %tmp.200 = lgetv %grad.12;
         %tmp.201 = 6;
         %tmp.202 = gte %tmp.200 %tmp.201;
-        bf %tmp.202 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_30_233_38_true:
+        bf %tmp.202 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_30_210_38_true:
         %tmp.204 = lgetv %grad.12;
         %tmp.205 = 9;
         %tmp.206 = lt %tmp.204 %tmp.205;
         push %tmp.206;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_30_233_38_end:
-        %tmp.207 = phi [%tmp.202 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_16_233_38_begin] [%tmp.206 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_30_233_38_true] [%tmp.207 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_30_233_38_end];
-        bf %tmp.207 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_41_233_105_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 233 42 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_30_210_38_end:
+        %tmp.207 = phi [%tmp.202 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_16_210_38_begin] [%tmp.206 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_30_210_38_true] [%tmp.207 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_30_210_38_end];
+        bf %tmp.207 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_41_210_105_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 210 42 ]
         %tmp.208 = lgetv %dc;
         %tmp.209 = getv function %tmp.208 :setColor;
         %tmp.210 = getm $.Toybox.Graphics;
@@ -964,27 +964,27 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_41_233_105_start:
         %tmp.212 = getm $.Toybox.Graphics;
         %tmp.213 = getv %tmp.212 :COLOR_TRANSPARENT;
         invoke %tmp.208 %tmp.209(%tmp.211, %tmp.213);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_41_233_105_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_233_12_233_105_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 234 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_stmt:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_16_234_39_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_41_210_105_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_210_12_210_105_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 211 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_16_211_39_begin:
         %tmp.215 = lgetv %grad.12;
         %tmp.216 = 9;
         %tmp.217 = gte %tmp.215 %tmp.216;
-        bf %tmp.217 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_30_234_39_true:
+        bf %tmp.217 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_30_211_39_true:
         %tmp.219 = lgetv %grad.12;
         %tmp.220 = 12;
         %tmp.221 = lt %tmp.219 %tmp.220;
         push %tmp.221;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_30_234_39_end:
-        %tmp.222 = phi [%tmp.217 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_16_234_39_begin] [%tmp.221 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_30_234_39_true] [%tmp.222 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_30_234_39_end];
-        bf %tmp.222 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_42_234_103_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 234 43 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_30_211_39_end:
+        %tmp.222 = phi [%tmp.217 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_16_211_39_begin] [%tmp.221 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_30_211_39_true] [%tmp.222 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_30_211_39_end];
+        bf %tmp.222 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_42_211_103_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 211 43 ]
         %tmp.223 = lgetv %dc;
         %tmp.224 = getv function %tmp.223 :setColor;
         %tmp.225 = getm $.Toybox.Graphics;
@@ -992,18 +992,18 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_42_234_103_start:
         %tmp.227 = getm $.Toybox.Graphics;
         %tmp.228 = getv %tmp.227 :COLOR_TRANSPARENT;
         invoke %tmp.223 %tmp.224(%tmp.226, %tmp.228);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_42_234_103_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_234_12_234_103_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 235 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_42_211_103_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_211_12_211_103_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 212 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_12_212_91_if_stmt:
         %tmp.230 = lgetv %grad.12;
         %tmp.231 = 12;
         %tmp.232 = gte %tmp.230 %tmp.231;
-        bf %tmp.232 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_27_235_91_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 235 28 ]
+        bf %tmp.232 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_12_212_91_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_12_212_91_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_27_212_91_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 212 28 ]
         %tmp.233 = lgetv %dc;
         %tmp.234 = getv function %tmp.233 :setColor;
         %tmp.235 = getm $.Toybox.Graphics;
@@ -1011,11 +1011,11 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_27_235_91_start:
         %tmp.237 = getm $.Toybox.Graphics;
         %tmp.238 = getv %tmp.237 :COLOR_TRANSPARENT;
         invoke %tmp.233 %tmp.234(%tmp.236, %tmp.238);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_27_235_91_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 237 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_27_212_91_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_12_212_91_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_212_12_212_91_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 214 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop" ]
         %pts.13 = local;
         %tmp.239 = newa 4;
         %tmp.240 = newa 2;
@@ -1055,21 +1055,21 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_235_12_235_91_if_end:
         %tmp.282 = dup %tmp.272;
         %tmp.283 = aputv %tmp.282 3 %tmp.281;
         lputv %pts.13 %tmp.283;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 238 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 215 12 ]
         %tmp.284 = lgetv %dc;
         %tmp.285 = getv function %tmp.284 :fillPolygon;
         %tmp.287 = lgetv %pts.13;
         invoke %tmp.284 %tmp.285(%tmp.287);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_42_239_8_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_incr:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 218 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_42_216_8_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_incr:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 195 ]
         %tmp.290 = lgetv %i.4;
         %tmp.291 = add %tmp.290 1;
         lputv %i.4 %tmp.291;
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_test;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 241 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_26_279_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_26_279_8_stop" ]
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_test;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_195_8_216_8_for_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 218 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_26_256_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_26_256_8_stop" ]
         %lenName.14 = local;
         %tmp.292 = lgetv %dc;
         %tmp.293 = getv function %tmp.292 :getTextWidthInPixels;
@@ -1078,36 +1078,36 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_218_8_239_8_for_end:
         %tmp.297 = getv %tmp.296 :FONT_SMALL;
         %tmp.298 = invoke %tmp.292 %tmp.293(%tmp.295, %tmp.297);
         lputv %lenName.14 %tmp.298;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 242 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_242_8_246_8_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 219 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_219_8_223_8_if_stmt:
         %tmp.300 = lgetv %lenName.14;
         %tmp.301 = 60;
         %tmp.302 = gt %tmp.300 %tmp.301;
-        bf %tmp.302 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_242_8_246_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_242_8_246_8_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_246_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 244 12 ]
+        bf %tmp.302 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_219_8_223_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_219_8_223_8_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_220_8_223_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 221 12 ]
         %tmp.303 = 60;
         lputv %lenName.14 %tmp.303;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 245 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 222 12 ]
         %tmp.305 = getv ? :name;
         %tmp.306 = getv function %tmp.305 :substring;
         %tmp.307 = 0;
         %tmp.308 = 10;
         %tmp.309 = invoke %tmp.305 %tmp.306(%tmp.307, %tmp.308);
         putv self :name %tmp.309;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_246_8_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_242_8_246_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_242_8_246_8_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 248 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_stmt:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_220_8_223_8_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_219_8_223_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_219_8_223_8_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 225 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_stmt:
         %tmp.311 = getv ? :timer;
         %tmp.312 = 0;
         %tmp.313 = ne %tmp.311 %tmp.312;
-        bf %tmp.313 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_false;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 250 12 ]
+        bf %tmp.313 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_false;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 227 12 ]
         %tmp.314 = lgetv %dc;
         %tmp.315 = getv function %tmp.314 :setColor;
         %tmp.316 = getm $.Toybox.Graphics;
@@ -1115,8 +1115,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.318 = getm $.Toybox.Graphics;
         %tmp.319 = getv %tmp.318 :COLOR_TRANSPARENT;
         invoke %tmp.314 %tmp.315(%tmp.317, %tmp.319);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 251 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 228 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_stop" ]
         %progress.15 = local;
         %tmp.321 = getv ? :width;
         %tmp.323 = getv ? :length;
@@ -1130,7 +1130,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.333 = div %tmp.328 %tmp.332;
         %tmp.334 = mul %tmp.321 %tmp.333;
         lputv %progress.15 %tmp.334;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 252 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 229 12 ]
         %tmp.335 = lgetv %dc;
         %tmp.336 = getv function %tmp.335 :fillRectangle;
         %tmp.337 = 0;
@@ -1140,7 +1140,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.343 = lgetv %progress.15;
         %tmp.344 = 2;
         invoke %tmp.335 %tmp.336(%tmp.337, %tmp.341, %tmp.343, %tmp.344);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 255 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 232 12 ]
         %tmp.345 = lgetv %dc;
         %tmp.346 = getv function %tmp.345 :setColor;
         %tmp.347 = getm $.Toybox.Graphics;
@@ -1148,7 +1148,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.349 = getm $.Toybox.Graphics;
         %tmp.350 = getv %tmp.349 :COLOR_TRANSPARENT;
         invoke %tmp.345 %tmp.346(%tmp.348, %tmp.350);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 256 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 233 12 ]
         %tmp.351 = lgetv %dc;
         %tmp.352 = getv function %tmp.351 :drawText;
         %tmp.353 = 2;
@@ -1159,8 +1159,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.359 = getm $.Toybox.Graphics;
         %tmp.360 = getv %tmp.359 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.351 %tmp.352(%tmp.353, %tmp.354, %tmp.356, %tmp.358, %tmp.360);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 257 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 234 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_stop" ]
         %lenNme.16 = local;
         %tmp.361 = lgetv %dc;
         %tmp.362 = getv function %tmp.361 :getTextWidthInPixels;
@@ -1169,7 +1169,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.366 = getv %tmp.365 :FONT_SMALL;
         %tmp.367 = invoke %tmp.361 %tmp.362(%tmp.364, %tmp.366);
         lputv %lenNme.16 %tmp.367;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 258 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 235 12 ]
         %tmp.368 = lgetv %dc;
         %tmp.369 = getv function %tmp.368 :drawBitmap;
         %tmp.371 = lgetv %lenName.14;
@@ -1178,7 +1178,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.374 = 7;
         %tmp.376 = getv ? :resFinish;
         invoke %tmp.368 %tmp.369(%tmp.373, %tmp.374, %tmp.376);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 259 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 236 12 ]
         %tmp.377 = lgetv %dc;
         %tmp.378 = getv function %tmp.377 :drawText;
         %tmp.380 = lgetv %lenName.14;
@@ -1195,15 +1195,15 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.392 = getm $.Toybox.Graphics;
         %tmp.393 = getv %tmp.392 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.377 %tmp.378(%tmp.382, %tmp.383, %tmp.385, %tmp.391, %tmp.393);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 262 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 239 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_stop" ]
         %dispTime.17 = local;
         %tmp.394 = self;
         %tmp.395 = getv function %tmp.394 :secondsToTimeString;
         %tmp.397 = getv ? :climbTime;
         %tmp.398 = invoke %tmp.394 %tmp.395(%tmp.397);
         lputv %dispTime.17 %tmp.398;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 263 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 240 12 ]
         %tmp.399 = lgetv %dc;
         %tmp.400 = getv function %tmp.399 :drawText;
         %tmp.401 = 2;
@@ -1214,11 +1214,11 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_start:
         %tmp.407 = getm $.Toybox.Graphics;
         %tmp.408 = getv %tmp.407 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.399 %tmp.400(%tmp.401, %tmp.402, %tmp.404, %tmp.406, %tmp.408);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_23_264_8_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_false:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 267 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_23_241_8_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_false:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_255_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 244 12 ]
         %tmp.409 = lgetv %dc;
         %tmp.410 = getv function %tmp.409 :setColor;
         %tmp.411 = getm $.Toybox.Graphics;
@@ -1226,7 +1226,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
         %tmp.413 = getm $.Toybox.Graphics;
         %tmp.414 = getv %tmp.413 :COLOR_TRANSPARENT;
         invoke %tmp.409 %tmp.410(%tmp.412, %tmp.414);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 268 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 245 12 ]
         %tmp.415 = lgetv %dc;
         %tmp.416 = getv function %tmp.415 :drawText;
         %tmp.417 = 2;
@@ -1237,8 +1237,8 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
         %tmp.423 = getm $.Toybox.Graphics;
         %tmp.424 = getv %tmp.423 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.415 %tmp.416(%tmp.417, %tmp.418, %tmp.420, %tmp.422, %tmp.424);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 269 12 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 246 12 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_255_8_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_255_8_stop" ]
         %lenNme.18 = local;
         %tmp.425 = lgetv %dc;
         %tmp.426 = getv function %tmp.425 :getTextWidthInPixels;
@@ -1247,7 +1247,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
         %tmp.430 = getv %tmp.429 :FONT_SMALL;
         %tmp.431 = invoke %tmp.425 %tmp.426(%tmp.428, %tmp.430);
         lputv %lenNme.18 %tmp.431;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 270 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 247 12 ]
         %tmp.432 = lgetv %dc;
         %tmp.433 = getv function %tmp.432 :drawBitmap;
         %tmp.435 = lgetv %lenName.14;
@@ -1256,7 +1256,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
         %tmp.438 = 7;
         %tmp.440 = getv ? :resStart;
         invoke %tmp.432 %tmp.433(%tmp.437, %tmp.438, %tmp.440);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 271 12 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 248 12 ]
         %tmp.441 = lgetv %dc;
         %tmp.442 = getv function %tmp.441 :drawText;
         %tmp.444 = lgetv %lenName.14;
@@ -1273,23 +1273,23 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_start:
         %tmp.456 = getm $.Toybox.Graphics;
         %tmp.457 = getv %tmp.456 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.441 %tmp.442(%tmp.446, %tmp.447, %tmp.449, %tmp.455, %tmp.457);
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 274 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_12_277_12_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 251 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_12_254_12_if_stmt:
         %tmp.459 = getv ? :lastTime;
         %tmp.460 = 0;
         %tmp.461 = ne %tmp.459 %tmp.460;
-        bf %tmp.461 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_12_277_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_12_277_12_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_30_277_12_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 275 16 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_30_277_12_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_30_277_12_stop" ]
+        bf %tmp.461 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_12_254_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_12_254_12_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_30_254_12_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 252 16 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_30_254_12_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_30_254_12_stop" ]
         %dispTime.19 = local;
         %tmp.462 = self;
         %tmp.463 = getv function %tmp.462 :secondsToTimeString;
         %tmp.465 = getv ? :lastTime;
         %tmp.466 = invoke %tmp.462 %tmp.463(%tmp.465);
         lputv %dispTime.19 %tmp.466;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 276 16 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 253 16 ]
         %tmp.467 = lgetv %dc;
         %tmp.468 = getv function %tmp.467 :drawText;
         %tmp.469 = 2;
@@ -1300,28 +1300,28 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_30_277_12_start:
         %tmp.475 = getm $.Toybox.Graphics;
         %tmp.476 = getv %tmp.475 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.467 %tmp.468(%tmp.469, %tmp.470, %tmp.472, %tmp.474, %tmp.476);
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_30_277_12_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_12_277_12_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_274_12_277_12_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_266_8_278_8_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_248_8_278_8_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_26_279_8_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_8_279_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_216_8_279_8_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_200_26_281_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_30_254_12_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_12_254_12_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_251_12_254_12_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_243_8_255_8_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_225_8_255_8_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_26_256_8_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_8_256_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_193_8_256_8_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_177_40_258_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 283; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 260; ]
     function secondsToTimeString(totalSeconds) {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 284 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 261 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_stop" ]
         %hours.1 = local;
         %tmp.2 = lgetv %totalSeconds;
         %tmp.3 = 3600;
         %tmp.4 = div %tmp.2 %tmp.3;
         lputv %hours.1 %tmp.4;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 285 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 262 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_stop" ]
         %minutes.2 = local;
         %tmp.6 = lgetv %totalSeconds;
         %tmp.7 = 60;
@@ -1329,15 +1329,15 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start:
         %tmp.9 = 60;
         %tmp.10 = mod %tmp.8 %tmp.9;
         lputv %minutes.2 %tmp.10;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 286 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 263 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_stop" ]
         %seconds.3 = local;
         %tmp.12 = lgetv %totalSeconds;
         %tmp.13 = 60;
         %tmp.14 = mod %tmp.12 %tmp.13;
         lputv %seconds.3 %tmp.14;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 287 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 264 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_stop" ]
         %timeString.4 = local;
         %tmp.15 = self;
         %tmp.16 = getv function %tmp.15 :format;
@@ -1363,39 +1363,39 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_start:
         %tmp.36 = aputv %tmp.35 2 %tmp.34;
         %tmp.37 = invoke %tmp.15 %tmp.16(%tmp.17, %tmp.36);
         lputv %timeString.4 %tmp.37;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 288 8 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 265 8 ]
         %tmp.39 = lgetv %timeString.4;
         ret %tmp.39;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_47_289_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_260_47_266_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 291; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 268; ]
     function maxAlt(alts) {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 292 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 269 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_stop" ]
         %counter.1 = local;
         %tmp.1 = 5;
         lputv %counter.1 %tmp.1;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 293 8 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 270 8 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_stop" ]
         %biggest.2 = local;
         %tmp.2 = 0;
         lputv %biggest.2 %tmp.2;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 294 8 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_8_302_36_do_while_begin:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_11_301_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 295 12 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_12_299_8_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 271 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_8_279_36_do_while_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_11_278_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 272 12 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_12_276_8_if_stmt:
         %tmp.4 = lgetv %alts;
         %tmp.6 = lgetv %counter.1;
         %tmp.7 = agetv %tmp.4 %tmp.6;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_12_299_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_12_299_8_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_38_299_8_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 296 16 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_stmt:
+        bf %tmp.9 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_12_276_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_12_276_8_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_38_276_8_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 273 16 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_16_275_16_if_stmt:
         %tmp.11 = lgetv %alts;
         %tmp.13 = lgetv %counter.1;
         %tmp.14 = agetv %tmp.11 %tmp.13;
@@ -1403,76 +1403,76 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_stmt:
         %tmp.16 = invoke %tmp.14 %tmp.15();
         %tmp.18 = lgetv %biggest.2;
         %tmp.19 = gt %tmp.16 %tmp.18;
-        bf %tmp.19 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_52_298_16_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 297 20 ]
+        bf %tmp.19 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_16_275_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_16_275_16_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_52_275_16_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 274 20 ]
         %tmp.21 = lgetv %alts;
         %tmp.23 = lgetv %counter.1;
         %tmp.24 = agetv %tmp.21 %tmp.23;
         %tmp.25 = getv function %tmp.24 :toNumber;
         %tmp.26 = invoke %tmp.24 %tmp.25();
         lputv %biggest.2 %tmp.26;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_52_298_16_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_296_16_298_16_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_38_299_8_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_12_299_8_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_295_12_299_8_if_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 300 8 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_52_275_16_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_16_275_16_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_273_16_275_16_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_38_276_8_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_12_276_8_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_272_12_276_8_if_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 277 8 ]
         %tmp.29 = lgetv %counter.1;
         %tmp.30 = add %tmp.29 1;
         lputv %counter.1 %tmp.30;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_11_301_8_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_8_302_36_do_while_test:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 302 15 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_11_278_8_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_8_279_36_do_while_test:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 279 15 ]
         %tmp.32 = lgetv %counter.1;
         %tmp.33 = lgetv %alts;
         %tmp.34 = getv function %tmp.33 :size;
         %tmp.35 = invoke %tmp.33 %tmp.34();
         %tmp.36 = lt %tmp.32 %tmp.35;
-        bt %tmp.36 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_8_302_36_do_while_begin;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_294_8_302_36_do_while_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 303 8 ]
+        bt %tmp.36 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_8_279_36_do_while_begin;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_271_8_279_36_do_while_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 280 8 ]
         %tmp.38 = lgetv %biggest.2;
         ret %tmp.38;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_291_26_304_4_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_268_26_281_4_stop:
     }
-    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 306; ]
+    [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 283; ]
     function toArray(string, splitter) {
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 307 0 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_stop" ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 284 0 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_stop" ]
         %array.1 = local;
         %tmp.2 = 50;
         %tmp.1 = newa %tmp.2;
         lputv %array.1 %tmp.1;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 308 0 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 285 0 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_stop" ]
         %index.2 = local;
         %tmp.3 = 1;
         lputv %index.2 %tmp.3;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 309 0 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 286 0 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_stop" ]
         %location.3 = local;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 310 0 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_310_0_319_23_do_while_begin:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_311_0_318_0_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 312 0 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 287 0 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_287_0_296_23_do_while_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_288_0_295_0_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 289 0 ]
         %tmp.4 = lgetv %string;
         %tmp.5 = getv function %tmp.4 :find;
         %tmp.7 = lgetv %splitter;
         %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
         lputv %location.3 %tmp.8;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 313 0 ]
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_0_317_0_if_stmt:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 290 0 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_0_294_0_if_stmt:
         %tmp.10 = lgetv %location.3;
         %tmp.11 = null;
         %tmp.12 = ne %tmp.10 %tmp.11;
-        bf %tmp.12 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_0_317_0_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_0_317_0_if_true:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_22_317_0_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 314 0 ]
+        bf %tmp.12 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_0_294_0_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_0_294_0_if_true:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_22_294_0_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 291 0 ]
         %tmp.13 = lgetv %array.1;
         %tmp.14 = lgetv %string;
         %tmp.15 = getv function %tmp.14 :substring;
@@ -1482,7 +1482,7 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_22_317_0_start:
         %tmp.20 = invoke %tmp.14 %tmp.15(%tmp.16, %tmp.19);
         %tmp.22 = lgetv %index.2;
         aputv %tmp.13 %tmp.22 %tmp.20;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 315 0 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 292 0 ]
         %tmp.23 = lgetv %string;
         %tmp.24 = getv function %tmp.23 :substring;
         %tmp.26 = lgetv %location.3;
@@ -1494,66 +1494,66 @@ D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_22_317_0_start:
         %tmp.32 = invoke %tmp.30 %tmp.31();
         %tmp.33 = invoke %tmp.23 %tmp.24(%tmp.29, %tmp.32);
         lputv %string %tmp.33;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 316 0 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 293 0 ]
         %tmp.36 = lgetv %index.2;
         %tmp.37 = add %tmp.36 1;
         lputv %index.2 %tmp.37;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_22_317_0_stop:
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_0_317_0_if_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_313_0_317_0_if_end:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_311_0_318_0_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_310_0_319_23_do_while_test:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 319 7 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_22_294_0_stop:
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_0_294_0_if_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_290_0_294_0_if_end:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_288_0_295_0_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_287_0_296_23_do_while_test:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 296 7 ]
         %tmp.39 = lgetv %location.3;
         %tmp.40 = null;
         %tmp.41 = ne %tmp.39 %tmp.40;
-        bt %tmp.41 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_310_0_319_23_do_while_begin;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_310_0_319_23_do_while_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 320 0 ]
+        bt %tmp.41 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_287_0_296_23_do_while_begin;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_287_0_296_23_do_while_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 297 0 ]
         %tmp.42 = lgetv %array.1;
         %tmp.44 = lgetv %string;
         %tmp.46 = lgetv %index.2;
         aputv %tmp.42 %tmp.46 %tmp.44;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 321 0 ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 298 0 ]
         %tmp.47 = lgetv %array.1;
         %tmp.49 = lgetv %index.2;
         %tmp.50 = 0;
         aputv %tmp.47 %tmp.50 %tmp.49;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 323 0 ]
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_stop" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 300 0 ]
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_start" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_stop" ]
         %result.4 = local;
         %tmp.53 = lgetv %index.2;
         %tmp.51 = newa %tmp.53;
         lputv %result.4 %tmp.51;
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 324 0 ]
-        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_init:
-        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_end" ]
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 301 0 ]
+        for @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_test @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_incr @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_init:
+        [ "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_begin" "D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_end" ]
         %i.5 = local;
         %tmp.54 = 0;
         lputv %i.5 %tmp.54;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_test:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_test:
         %tmp.56 = lgetv %i.5;
         %tmp.58 = lgetv %index.2;
         %tmp.59 = lt %tmp.56 %tmp.58;
-        bf %tmp.59 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_end;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_begin:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_32_326_0_start:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 325 0 ]
+        bf %tmp.59 @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_end;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_begin:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_32_303_0_start:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 302 0 ]
         %tmp.61 = lgetv %array.1;
         lputv %result.4 %tmp.61;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_32_326_0_stop:
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_incr:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 324 ]
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_32_303_0_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_incr:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 301 ]
         %tmp.64 = lgetv %i.5;
         %tmp.65 = add %tmp.64 1;
         lputv %i.5 %tmp.65;
-        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_test;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_324_0_326_0_for_end:
-[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 327 0 ]
+        goto @D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_test;
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_301_0_303_0_for_end:
+[ "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc" 304 0 ]
         %tmp.67 = lgetv %result.4;
         ret %tmp.67;
-D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_306_35_328_0_stop:
+D_repos_ConnectIQ_ClimbPro_source_ClimbProView_mc_283_35_305_0_stop:
     }
 }
 [ @file = "D:\repos\ConnectIQ-ClimbPro\source\ClimbProView.mc"; @line = 1; ]
